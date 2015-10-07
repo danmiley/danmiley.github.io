@@ -6,9 +6,26 @@
 </description>
     <link>http://yourdomain.com/www/</link>
     <atom:link href="http://yourdomain.com/www/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 07 Oct 2015 11:34:29 -0700</pubDate>
-    <lastBuildDate>Wed, 07 Oct 2015 11:34:29 -0700</lastBuildDate>
+    <pubDate>Wed, 07 Oct 2015 13:52:41 -0700</pubDate>
+    <lastBuildDate>Wed, 07 Oct 2015 13:52:41 -0700</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>liquid....</title>
+        <description>&lt;p&gt;hello world&lt;/p&gt;
+&lt;p&gt;or&lt;/p&gt;
+&lt;p&gt;2015-10-07T13:52:41-07:00&lt;/p&gt;
+</description>
+        <pubDate>Wed, 01 Oct 2025 00:00:00 -0700</pubDate>
+        <link>http://yourdomain.com/www/2025/10/01/liquid.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/www/2025/10/01/liquid.html</guid>
+        
+        <category>jekyll</category>
+        
+        <category>org-mode</category>
+        
+        
+      </item>
     
       <item>
         <title>test</title>
@@ -77,6 +94,23 @@
         <pubDate>Fri, 02 Oct 2015 00:00:00 -0700</pubDate>
         <link>http://yourdomain.com/www/2015/10/02/source-code.html</link>
         <guid isPermaLink="true">http://yourdomain.com/www/2015/10/02/source-code.html</guid>
+        
+        <category>jekyll</category>
+        
+        <category>org-mode</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>liquid....</title>
+        <description>&lt;p&gt;hello world&lt;/p&gt;
+&lt;p&gt;or&lt;/p&gt;
+&lt;p&gt;2015-10-07T13:52:41-07:00&lt;/p&gt;
+</description>
+        <pubDate>Thu, 01 Oct 2015 00:00:00 -0700</pubDate>
+        <link>http://yourdomain.com/www/2015/10/01/liquid.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/www/2015/10/01/liquid.html</guid>
         
         <category>jekyll</category>
         
