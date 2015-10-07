@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Lanyon</title>
+    <title>Daily Doppio</title>
     <description>A reserved &lt;a href=&quot;http://jekyllrb.com&quot; target=&quot;_blank&quot;&gt;Jekyll&lt;/a&gt; theme that places the utmost gravity on content with a hidden drawer. Made by &lt;a href=&quot;https://twitter.com/mdo&quot; target=&quot;_blank&quot;&gt;@mdo&lt;/a&gt;.</description>
-    <link>http://lanyon.getpoole.com/</link>
-    <atom:link href="http://lanyon.getpoole.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 07 Oct 2015 16:01:59 -0700</pubDate>
-    <lastBuildDate>Wed, 07 Oct 2015 16:01:59 -0700</lastBuildDate>
+    <link>http://lanyon.getpoole.com/www/</link>
+    <atom:link href="http://lanyon.getpoole.com/www/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Wed, 07 Oct 2015 16:17:33 -0700</pubDate>
+    <lastBuildDate>Wed, 07 Oct 2015 16:17:33 -0700</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -18,8 +18,8 @@
 
 </description>
         <pubDate>Tue, 06 Oct 2015 13:13:00 -0700</pubDate>
-        <link>http://lanyon.getpoole.com/sdf/2015/10/06/bestie/</link>
-        <guid isPermaLink="true">http://lanyon.getpoole.com/sdf/2015/10/06/bestie/</guid>
+        <link>http://lanyon.getpoole.com/www/sdf/2015/10/06/bestie/</link>
+        <guid isPermaLink="true">http://lanyon.getpoole.com/www/sdf/2015/10/06/bestie/</guid>
         
         <category>jekyll</category>
         
@@ -48,8 +48,8 @@
 
 </description>
         <pubDate>Tue, 06 Oct 2015 09:11:59 -0700</pubDate>
-        <link>http://lanyon.getpoole.com/jekyll/update/2015/10/06/welcome-to-jekyll/</link>
-        <guid isPermaLink="true">http://lanyon.getpoole.com/jekyll/update/2015/10/06/welcome-to-jekyll/</guid>
+        <link>http://lanyon.getpoole.com/www/jekyll/update/2015/10/06/welcome-to-jekyll/</link>
+        <guid isPermaLink="true">http://lanyon.getpoole.com/www/jekyll/update/2015/10/06/welcome-to-jekyll/</guid>
         
         
         <category>jekyll</category>
@@ -74,8 +74,8 @@
 
 </description>
         <pubDate>Fri, 02 Oct 2015 00:00:00 -0700</pubDate>
-        <link>http://lanyon.getpoole.com/2015/10/02/source-code/</link>
-        <guid isPermaLink="true">http://lanyon.getpoole.com/2015/10/02/source-code/</guid>
+        <link>http://lanyon.getpoole.com/www/2015/10/02/source-code/</link>
+        <guid isPermaLink="true">http://lanyon.getpoole.com/www/2015/10/02/source-code/</guid>
         
         <category>jekyll</category>
         
@@ -88,11 +88,11 @@
         <title>liquid....</title>
         <description>&lt;p&gt;hello world&lt;/p&gt;
 &lt;p&gt;or&lt;/p&gt;
-&lt;p&gt;2015-10-07T16:01:59-07:00&lt;/p&gt;
+&lt;p&gt;2015-10-07T16:17:33-07:00&lt;/p&gt;
 </description>
         <pubDate>Thu, 01 Oct 2015 00:00:00 -0700</pubDate>
-        <link>http://lanyon.getpoole.com/2015/10/01/liquid/</link>
-        <guid isPermaLink="true">http://lanyon.getpoole.com/2015/10/01/liquid/</guid>
+        <link>http://lanyon.getpoole.com/www/2015/10/01/liquid/</link>
+        <guid isPermaLink="true">http://lanyon.getpoole.com/www/2015/10/01/liquid/</guid>
         
         <category>jekyll</category>
         
@@ -107,8 +107,8 @@
 &lt;p&gt;Here is a post, minimal markdown&lt;/p&gt;
 </description>
         <pubDate>Thu, 01 Oct 2015 00:00:00 -0700</pubDate>
-        <link>http://lanyon.getpoole.com/2015/10/01/firtie/</link>
-        <guid isPermaLink="true">http://lanyon.getpoole.com/2015/10/01/firtie/</guid>
+        <link>http://lanyon.getpoole.com/www/2015/10/01/firtie/</link>
+        <guid isPermaLink="true">http://lanyon.getpoole.com/www/2015/10/01/firtie/</guid>
         
         
       </item>
@@ -121,8 +121,8 @@
 
 </description>
         <pubDate>Sat, 01 Aug 2015 00:00:00 -0700</pubDate>
-        <link>http://lanyon.getpoole.com/2015/08/01/tango/</link>
-        <guid isPermaLink="true">http://lanyon.getpoole.com/2015/08/01/tango/</guid>
+        <link>http://lanyon.getpoole.com/www/2015/08/01/tango/</link>
+        <guid isPermaLink="true">http://lanyon.getpoole.com/www/2015/08/01/tango/</guid>
         
         <category>jekyll</category>
         
@@ -172,8 +172,8 @@
 &lt;p&gt;Thanks!&lt;/p&gt;
 </description>
         <pubDate>Thu, 02 Jan 2014 00:00:00 -0800</pubDate>
-        <link>http://lanyon.getpoole.com/2014/01/02/introducing-lanyon/</link>
-        <guid isPermaLink="true">http://lanyon.getpoole.com/2014/01/02/introducing-lanyon/</guid>
+        <link>http://lanyon.getpoole.com/www/2014/01/02/introducing-lanyon/</link>
+        <guid isPermaLink="true">http://lanyon.getpoole.com/www/2014/01/02/introducing-lanyon/</guid>
         
         
       </item>
@@ -304,8 +304,8 @@
 &lt;p&gt;Want to see something else added? &lt;a href=&quot;https://github.com/poole/poole/issues/new&quot;&gt;Open an issue.&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 01 Jan 2014 00:00:00 -0800</pubDate>
-        <link>http://lanyon.getpoole.com/2014/01/01/example-content/</link>
-        <guid isPermaLink="true">http://lanyon.getpoole.com/2014/01/01/example-content/</guid>
+        <link>http://lanyon.getpoole.com/www/2014/01/01/example-content/</link>
+        <guid isPermaLink="true">http://lanyon.getpoole.com/www/2014/01/01/example-content/</guid>
         
         
       </item>
@@ -323,8 +323,8 @@
 &lt;p&gt;Find out more by &lt;a href=&quot;https://github.com/mojombo/jekyll&quot;&gt;visiting the project on GitHub&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Tue, 31 Dec 2013 00:00:00 -0800</pubDate>
-        <link>http://lanyon.getpoole.com/2013/12/31/whats-jekyll/</link>
-        <guid isPermaLink="true">http://lanyon.getpoole.com/2013/12/31/whats-jekyll/</guid>
+        <link>http://lanyon.getpoole.com/www/2013/12/31/whats-jekyll/</link>
+        <guid isPermaLink="true">http://lanyon.getpoole.com/www/2013/12/31/whats-jekyll/</guid>
         
         
       </item>
