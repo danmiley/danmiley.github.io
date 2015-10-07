@@ -1,14 +1,7 @@
 #+TITLE: source code
 #+LAYOUT: post
 #+TAGS: jekyll org-mode
-#+liquid: enabled
 #+foo: hello world
-
-{{ page.foo }}
-
-or
-
-{{ site.time | date_to_xmlschema }}
 
 
 #+BEGIN_SRC ruby
