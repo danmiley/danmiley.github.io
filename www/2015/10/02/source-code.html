@@ -1,0 +1,12 @@
+<p>hello world</p>
+<p>or</p>
+<p>2015-10-07T10:12:22-07:00</p>
+<div class="highlight"><pre><span class="nb">require</span> <span class="s1">&#39;rubygems&#39;</span>
+<span class="nb">require</span> <span class="s1">&#39;org-ruby&#39;</span>
+<span class="n">data</span> <span class="o">=</span> <span class="no">IO</span><span class="o">.</span><span class="n">read</span><span class="p">(</span><span class="n">filename</span><span class="p">)</span>
+<span class="nb">puts</span> <span class="no">Orgmode</span><span class="o">::</span><span class="no">Parser</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="n">data</span><span class="p">)</span><span class="o">.</span><span class="n">to_html</span>
+</pre></div>
+<div class="highlight"><pre><span class="p">(</span><span class="nf">defun</span> <span class="nv">org-xor</span> <span class="p">(</span><span class="nf">a</span> <span class="nv">b</span><span class="p">)</span>
+   <span class="s">&quot;Exclusive or.&quot;</span>
+   <span class="p">(</span><span class="k">if </span><span class="nv">a</span> <span class="p">(</span><span class="nb">not </span><span class="nv">b</span><span class="p">)</span> <span class="nv">b</span><span class="p">))</span>
+</pre></div>

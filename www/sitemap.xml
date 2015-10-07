@@ -1,16 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://yourdomain.com/www/sdf/2015/10/06/bestie.html</loc>
+    <lastmod>2015-10-06T13:13:00-07:00</lastmod>
+  </url>
+  <url>
     <loc>http://yourdomain.com/www/jekyll/update/2015/10/06/welcome-to-jekyll.html</loc>
     <lastmod>2015-10-06T09:11:59-07:00</lastmod>
+  </url>
+  <url>
+    <loc>http://yourdomain.com/www/2015/10/02/source-code.html</loc>
+    <lastmod>2015-10-02T00:00:00-07:00</lastmod>
+  </url>
+  <url>
+    <loc>http://yourdomain.com/www/2015/10/02/liquid.html</loc>
+    <lastmod>2015-10-02T00:00:00-07:00</lastmod>
   </url>
   <url>
     <loc>http://yourdomain.com/www/2015/10/01/firtie.html</loc>
     <lastmod>2015-10-01T00:00:00-07:00</lastmod>
   </url>
   <url>
-    <loc>http://yourdomain.com/www/2015/09/01/bestie.html</loc>
-    <lastmod>2015-09-01T00:00:00-07:00</lastmod>
+    <loc>http://yourdomain.com/www/2015/08/01/tango.html</loc>
+    <lastmod>2015-08-01T00:00:00-07:00</lastmod>
   </url>
   <url>
     <loc>http://yourdomain.com/www/about/</loc>

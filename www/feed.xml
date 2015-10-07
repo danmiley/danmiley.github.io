@@ -6,9 +6,28 @@
 </description>
     <link>http://yourdomain.com/www/</link>
     <atom:link href="http://yourdomain.com/www/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 07 Oct 2015 09:10:57 -0700</pubDate>
-    <lastBuildDate>Wed, 07 Oct 2015 09:10:57 -0700</lastBuildDate>
+    <pubDate>Wed, 07 Oct 2015 10:12:22 -0700</pubDate>
+    <lastBuildDate>Wed, 07 Oct 2015 10:12:22 -0700</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>test</title>
+        <description>
+&lt;h1&gt;lest do thiss&lt;/h1&gt;
+&lt;h2&gt;asdfasd&lt;/h2&gt;
+
+
+</description>
+        <pubDate>Tue, 06 Oct 2015 13:13:00 -0700</pubDate>
+        <link>http://yourdomain.com/www/sdf/2015/10/06/bestie.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/www/sdf/2015/10/06/bestie.html</guid>
+        
+        <category>tesr</category>
+        
+        
+        <category>sdf</category>
+        
+      </item>
     
       <item>
         <title>Welcome to Jekyll!</title>
@@ -39,6 +58,41 @@
       </item>
     
       <item>
+        <title>Source Code</title>
+        <description>&lt;p&gt;hello world&lt;/p&gt;
+&lt;p&gt;or&lt;/p&gt;
+&lt;p&gt;2015-10-07T10:12:22-07:00&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;rubygems&amp;#39;&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;org-ruby&amp;#39;&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;IO&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;read&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;filename&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Orgmode&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Parser&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;to_html&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;defun&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;org-xor&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+   &lt;span class=&quot;s&quot;&gt;&amp;quot;Exclusive or.&amp;quot;&lt;/span&gt;
+   &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;if &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;not &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+</description>
+        <pubDate>Fri, 02 Oct 2015 00:00:00 -0700</pubDate>
+        <link>http://yourdomain.com/www/2015/10/02/source-code.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/www/2015/10/02/source-code.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Liquid</title>
+        <description>&lt;p&gt;hello world&lt;/p&gt;
+&lt;p&gt;or&lt;/p&gt;
+&lt;p&gt;2015-10-07T10:12:22-07:00&lt;/p&gt;
+</description>
+        <pubDate>Fri, 02 Oct 2015 00:00:00 -0700</pubDate>
+        <link>http://yourdomain.com/www/2015/10/02/liquid.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/www/2015/10/02/liquid.html</guid>
+        
+        
+      </item>
+    
+      <item>
         <title>Firtie</title>
         <description>
 &lt;p&gt;Here is a post&lt;/p&gt;
@@ -51,26 +105,19 @@
       </item>
     
       <item>
-        <title>Bestie</title>
-        <description>#+STARTUP: showall
-#+STARTUP: hidestars
-#+OPTIONS: H:2 num:nil tags:nil toc:nil timestamps:t
-#+LAYOUT: post
-#+AUTHOR: nil
-#+DATE: 2015-10-06 Tue 13:13
-#+TITLE: test
-#+DESCRIPTION: tet
-#+TAGS: tesr
-#+CATEGORIES: sdf
-
-* lest do thiss
-** asdfasd
+        <title>Jekyll and Org together</title>
+        <description>
+&lt;p&gt;we can somewhat do this&lt;/p&gt;
 
 
 </description>
-        <pubDate>Tue, 01 Sep 2015 00:00:00 -0700</pubDate>
-        <link>http://yourdomain.com/www/2015/09/01/bestie.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/www/2015/09/01/bestie.html</guid>
+        <pubDate>Sat, 01 Aug 2015 00:00:00 -0700</pubDate>
+        <link>http://yourdomain.com/www/2015/08/01/tango.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/www/2015/08/01/tango.html</guid>
+        
+        <category>jekyll</category>
+        
+        <category>org-mode</category>
         
         
       </item>
