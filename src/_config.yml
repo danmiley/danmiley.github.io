@@ -11,6 +11,9 @@ twitter_username: jekyllrb
 github_username:  jekyll
 highlighter: pygments
 
+destination: ../www
+baseurl: /www
+
 gems:
   - jekyll-mentions
   - jemoji
