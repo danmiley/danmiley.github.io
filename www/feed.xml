@@ -6,8 +6,8 @@
 </description>
     <link>http://yourdomain.com/www/</link>
     <atom:link href="http://yourdomain.com/www/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 07 Oct 2015 10:12:22 -0700</pubDate>
-    <lastBuildDate>Wed, 07 Oct 2015 10:12:22 -0700</lastBuildDate>
+    <pubDate>Wed, 07 Oct 2015 10:22:53 -0700</pubDate>
+    <lastBuildDate>Wed, 07 Oct 2015 10:22:53 -0700</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -22,7 +22,9 @@
         <link>http://yourdomain.com/www/sdf/2015/10/06/bestie.html</link>
         <guid isPermaLink="true">http://yourdomain.com/www/sdf/2015/10/06/bestie.html</guid>
         
-        <category>tesr</category>
+        <category>jekyll</category>
+        
+        <category>org-mode</category>
         
         
         <category>sdf</category>
@@ -58,10 +60,10 @@
       </item>
     
       <item>
-        <title>Source Code</title>
+        <title>source code</title>
         <description>&lt;p&gt;hello world&lt;/p&gt;
 &lt;p&gt;or&lt;/p&gt;
-&lt;p&gt;2015-10-07T10:12:22-07:00&lt;/p&gt;
+&lt;p&gt;2015-10-07T10:22:53-07:00&lt;/p&gt;
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;rubygems&amp;#39;&lt;/span&gt;
 &lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;org-ruby&amp;#39;&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;IO&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;read&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;filename&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
@@ -76,18 +78,26 @@
         <link>http://yourdomain.com/www/2015/10/02/source-code.html</link>
         <guid isPermaLink="true">http://yourdomain.com/www/2015/10/02/source-code.html</guid>
         
+        <category>jekyll</category>
+        
+        <category>org-mode</category>
+        
         
       </item>
     
       <item>
-        <title>Liquid</title>
+        <title>liquid....</title>
         <description>&lt;p&gt;hello world&lt;/p&gt;
 &lt;p&gt;or&lt;/p&gt;
-&lt;p&gt;2015-10-07T10:12:22-07:00&lt;/p&gt;
+&lt;p&gt;2015-10-07T10:22:53-07:00&lt;/p&gt;
 </description>
         <pubDate>Fri, 02 Oct 2015 00:00:00 -0700</pubDate>
         <link>http://yourdomain.com/www/2015/10/02/liquid.html</link>
         <guid isPermaLink="true">http://yourdomain.com/www/2015/10/02/liquid.html</guid>
+        
+        <category>jekyll</category>
+        
+        <category>org-mode</category>
         
         
       </item>
@@ -95,7 +105,7 @@
       <item>
         <title>Firtie</title>
         <description>
-&lt;p&gt;Here is a post&lt;/p&gt;
+&lt;p&gt;Here is a post, minimal markdown&lt;/p&gt;
 </description>
         <pubDate>Thu, 01 Oct 2015 00:00:00 -0700</pubDate>
         <link>http://yourdomain.com/www/2015/10/01/firtie.html</link>

@@ -1,3 +1,6 @@
+#+TITLE: liquid....
+#+LAYOUT: post
+#+TAGS: jekyll org-mode
 #+liquid: enabled
 #+foo: hello world
 

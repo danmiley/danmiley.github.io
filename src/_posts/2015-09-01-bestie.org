@@ -8,6 +8,7 @@
 #+DESCRIPTION: tet
 #+TAGS: tesr
 #+CATEGORIES: sdf
+#+TAGS: jekyll org-mode
 
 * lest do thiss
 ** asdfasd
