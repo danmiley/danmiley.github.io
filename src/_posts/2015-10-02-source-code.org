@@ -3,7 +3,6 @@
 #+TAGS: jekyll org-mode
 #+foo: hello world
 
-
 #+BEGIN_SRC ruby
 require 'rubygems'
 require 'org-ruby'

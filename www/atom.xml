@@ -1,38 +1,36 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Lanyon</title>
-    <description>A reserved &lt;a href=&quot;http://jekyllrb.com&quot; target=&quot;_blank&quot;&gt;Jekyll&lt;/a&gt; theme that places the utmost gravity on content with a hidden drawer. Made by &lt;a href=&quot;https://twitter.com/mdo&quot; target=&quot;_blank&quot;&gt;@mdo&lt;/a&gt;.</description>
-    <link>http://lanyon.getpoole.com/</link>
-    <atom:link href="http://lanyon.getpoole.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 07 Oct 2015 16:01:59 -0700</pubDate>
-    <lastBuildDate>Wed, 07 Oct 2015 16:01:59 -0700</lastBuildDate>
-    <generator>Jekyll v2.4.0</generator>
-    
-      <item>
-        <title>test</title>
-        <description>
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Lanyon</title>
+ <link href="http://lanyon.getpoole.com/atom.xml" rel="self"/>
+ <link href="http://lanyon.getpoole.com/"/>
+ <updated>2015-10-07T16:01:59-07:00</updated>
+ <id>http://lanyon.getpoole.com</id>
+ <author>
+   <name>Mark Otto</name>
+   <email>markdotto@gmail.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>test</title>
+   <link href="http://lanyon.getpoole.com/sdf/2015/10/06/bestie/"/>
+   <updated>2015-10-06T13:13:00-07:00</updated>
+   <id>http://lanyon.getpoole.com/sdf/2015/10/06/bestie</id>
+   <content type="html">
 &lt;h1&gt;lest do thiss&lt;/h1&gt;
 &lt;h2&gt;asdfasd&lt;/h2&gt;
 
 
-</description>
-        <pubDate>Tue, 06 Oct 2015 13:13:00 -0700</pubDate>
-        <link>http://lanyon.getpoole.com/sdf/2015/10/06/bestie/</link>
-        <guid isPermaLink="true">http://lanyon.getpoole.com/sdf/2015/10/06/bestie/</guid>
-        
-        <category>jekyll</category>
-        
-        <category>org-mode</category>
-        
-        
-        <category>sdf</category>
-        
-      </item>
-    
-      <item>
-        <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve --watch&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Welcome to Jekyll!</title>
+   <link href="http://lanyon.getpoole.com/jekyll/update/2015/10/06/welcome-to-jekyll/"/>
+   <updated>2015-10-06T09:11:59-07:00</updated>
+   <id>http://lanyon.getpoole.com/jekyll/update/2015/10/06/welcome-to-jekyll</id>
+   <content type="html">&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve --watch&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
 &lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
 
@@ -46,21 +44,15 @@
 
 &lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
 
-</description>
-        <pubDate>Tue, 06 Oct 2015 09:11:59 -0700</pubDate>
-        <link>http://lanyon.getpoole.com/jekyll/update/2015/10/06/welcome-to-jekyll/</link>
-        <guid isPermaLink="true">http://lanyon.getpoole.com/jekyll/update/2015/10/06/welcome-to-jekyll/</guid>
-        
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
-        
-      </item>
-    
-      <item>
-        <title>source code</title>
-        <description>
+</content>
+ </entry>
+ 
+ <entry>
+   <title>source code</title>
+   <link href="http://lanyon.getpoole.com/2015/10/02/source-code/"/>
+   <updated>2015-10-02T00:00:00-07:00</updated>
+   <id>http://lanyon.getpoole.com/2015/10/02/source-code</id>
+   <content type="html">
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;rubygems&amp;#39;&lt;/span&gt;
 &lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;org-ruby&amp;#39;&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;IO&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;read&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;filename&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
@@ -72,68 +64,48 @@
 &lt;/pre&gt;&lt;/div&gt;
 
 
-</description>
-        <pubDate>Fri, 02 Oct 2015 00:00:00 -0700</pubDate>
-        <link>http://lanyon.getpoole.com/2015/10/02/source-code/</link>
-        <guid isPermaLink="true">http://lanyon.getpoole.com/2015/10/02/source-code/</guid>
-        
-        <category>jekyll</category>
-        
-        <category>org-mode</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>liquid....</title>
-        <description>&lt;p&gt;hello world&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>liquid....</title>
+   <link href="http://lanyon.getpoole.com/2015/10/01/liquid/"/>
+   <updated>2015-10-01T00:00:00-07:00</updated>
+   <id>http://lanyon.getpoole.com/2015/10/01/liquid</id>
+   <content type="html">&lt;p&gt;hello world&lt;/p&gt;
 &lt;p&gt;or&lt;/p&gt;
 &lt;p&gt;2015-10-07T16:01:59-07:00&lt;/p&gt;
-</description>
-        <pubDate>Thu, 01 Oct 2015 00:00:00 -0700</pubDate>
-        <link>http://lanyon.getpoole.com/2015/10/01/liquid/</link>
-        <guid isPermaLink="true">http://lanyon.getpoole.com/2015/10/01/liquid/</guid>
-        
-        <category>jekyll</category>
-        
-        <category>org-mode</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Firtie</title>
-        <description>
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Firtie</title>
+   <link href="http://lanyon.getpoole.com/2015/10/01/firtie/"/>
+   <updated>2015-10-01T00:00:00-07:00</updated>
+   <id>http://lanyon.getpoole.com/2015/10/01/firtie</id>
+   <content type="html">
 &lt;p&gt;Here is a post, minimal markdown&lt;/p&gt;
-</description>
-        <pubDate>Thu, 01 Oct 2015 00:00:00 -0700</pubDate>
-        <link>http://lanyon.getpoole.com/2015/10/01/firtie/</link>
-        <guid isPermaLink="true">http://lanyon.getpoole.com/2015/10/01/firtie/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Jekyll and Org together</title>
-        <description>
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Jekyll and Org together</title>
+   <link href="http://lanyon.getpoole.com/2015/08/01/tango/"/>
+   <updated>2015-08-01T00:00:00-07:00</updated>
+   <id>http://lanyon.getpoole.com/2015/08/01/tango</id>
+   <content type="html">
 &lt;p&gt;we can somewhat do this&lt;/p&gt;
 
 
-</description>
-        <pubDate>Sat, 01 Aug 2015 00:00:00 -0700</pubDate>
-        <link>http://lanyon.getpoole.com/2015/08/01/tango/</link>
-        <guid isPermaLink="true">http://lanyon.getpoole.com/2015/08/01/tango/</guid>
-        
-        <category>jekyll</category>
-        
-        <category>org-mode</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Introducing Lanyon</title>
-        <description>&lt;p&gt;Lanyon is an unassuming &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; theme that places content first by tucking away navigation in a hidden drawer. It’s based on &lt;a href=&quot;http://getpoole.com&quot;&gt;Poole&lt;/a&gt;, the Jekyll butler.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Introducing Lanyon</title>
+   <link href="http://lanyon.getpoole.com/2014/01/02/introducing-lanyon/"/>
+   <updated>2014-01-02T00:00:00-08:00</updated>
+   <id>http://lanyon.getpoole.com/2014/01/02/introducing-lanyon</id>
+   <content type="html">&lt;p&gt;Lanyon is an unassuming &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; theme that places content first by tucking away navigation in a hidden drawer. It’s based on &lt;a href=&quot;http://getpoole.com&quot;&gt;Poole&lt;/a&gt;, the Jekyll butler.&lt;/p&gt;
 
 &lt;h3 id=&quot;built-on-poole&quot;&gt;Built on Poole&lt;/h3&gt;
 
@@ -170,17 +142,15 @@
 &lt;p&gt;Lanyon is developed on and hosted with GitHub. Head to the &lt;a href=&quot;https://github.com/poole/lanyon&quot;&gt;GitHub repository&lt;/a&gt; for downloads, bug reports, and features requests.&lt;/p&gt;
 
 &lt;p&gt;Thanks!&lt;/p&gt;
-</description>
-        <pubDate>Thu, 02 Jan 2014 00:00:00 -0800</pubDate>
-        <link>http://lanyon.getpoole.com/2014/01/02/introducing-lanyon/</link>
-        <guid isPermaLink="true">http://lanyon.getpoole.com/2014/01/02/introducing-lanyon/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Example content</title>
-        <description>&lt;div class=&quot;message&quot;&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Example content</title>
+   <link href="http://lanyon.getpoole.com/2014/01/01/example-content/"/>
+   <updated>2014-01-01T00:00:00-08:00</updated>
+   <id>http://lanyon.getpoole.com/2014/01/01/example-content</id>
+   <content type="html">&lt;div class=&quot;message&quot;&gt;
   Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
 &lt;/div&gt;
 
@@ -302,17 +272,15 @@
 &lt;hr /&gt;
 
 &lt;p&gt;Want to see something else added? &lt;a href=&quot;https://github.com/poole/poole/issues/new&quot;&gt;Open an issue.&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Wed, 01 Jan 2014 00:00:00 -0800</pubDate>
-        <link>http://lanyon.getpoole.com/2014/01/01/example-content/</link>
-        <guid isPermaLink="true">http://lanyon.getpoole.com/2014/01/01/example-content/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>What&#39;s Jekyll?</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From &lt;a href=&quot;https://github.com/mojombo/jekyll/blob/master/README.markdown&quot;&gt;the project’s readme&lt;/a&gt;:&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>What's Jekyll?</title>
+   <link href="http://lanyon.getpoole.com/2013/12/31/whats-jekyll/"/>
+   <updated>2013-12-31T00:00:00-08:00</updated>
+   <id>http://lanyon.getpoole.com/2013/12/31/whats-jekyll</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From &lt;a href=&quot;https://github.com/mojombo/jekyll/blob/master/README.markdown&quot;&gt;the project’s readme&lt;/a&gt;:&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Jekyll is a simple, blog aware, static site generator. It takes a template directory […] and spits out a complete, static website suitable for serving with Apache or your favorite web server. This is also the engine behind GitHub Pages, which you can use to host your project’s page or blog right here from GitHub.&lt;/p&gt;
@@ -321,13 +289,8 @@
 &lt;p&gt;It’s an immensely useful tool and one we encourage you to use here with Lanyon.&lt;/p&gt;
 
 &lt;p&gt;Find out more by &lt;a href=&quot;https://github.com/mojombo/jekyll&quot;&gt;visiting the project on GitHub&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 31 Dec 2013 00:00:00 -0800</pubDate>
-        <link>http://lanyon.getpoole.com/2013/12/31/whats-jekyll/</link>
-        <guid isPermaLink="true">http://lanyon.getpoole.com/2013/12/31/whats-jekyll/</guid>
-        
-        
-      </item>
-    
-  </channel>
-</rss>
+</content>
+ </entry>
+ 
+
+</feed>
