@@ -1,0 +1,22 @@
+#+liquid: enabled
+#+foo: hello world
+
+{{ page.foo }}
+
+or
+
+{{ site.time | date_to_xmlschema }}
+
+
+#+BEGIN_SRC ruby
+require 'rubygems'
+require 'org-ruby'
+data = IO.read(filename)
+puts Orgmode::Parser.new(data).to_html
+#+END_SRC
+
+#+BEGIN_SRC emacs-lisp
+       (defun org-xor (a b)
+          "Exclusive or."
+          (if a (not b) b))
+#+END_SRC

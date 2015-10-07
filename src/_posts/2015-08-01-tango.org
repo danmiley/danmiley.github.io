@@ -1,0 +1,6 @@
+#+TITLE: Jekyll and Org together
+#+LAYOUT: posts
+#+TAGS: jekyll org-mode
+
+we can somewhat do this
+
