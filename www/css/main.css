@@ -447,3 +447,19 @@ pre {
     color: #008080; }
   .highlight .il {
     color: #099; }
+
+img {
+  margin: 15px;
+  border: 1px solid blue; }
+
+div.photofloatr {
+  float: right;
+  border: thin silver solid;
+  margin: 0.5em;
+  padding: 0.5em; }
+
+div.photofloatr p {
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0; }
