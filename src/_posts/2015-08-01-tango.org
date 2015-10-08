@@ -13,4 +13,12 @@ we can somewhat do this, right?
 </div>
 #+END_HTML
 
+#+BEGIN_HTML
+<div class="photofloatr">
+  <p><img src="/www/public/images/screengrab.gif" width="600"
+    height="400" alt="Screen Grabbie"></p>
+  <p>Running Da Jekylll</p>
+</div>
+#+END_HTML
+
 

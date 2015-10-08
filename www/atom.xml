@@ -2,27 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>Daily Doppio</title>
- <link href="http://lanyon.getpoole.com/www/atom.xml" rel="self"/>
- <link href="http://lanyon.getpoole.com/www/"/>
- <updated>2015-10-08T12:00:08-07:00</updated>
- <id>http://lanyon.getpoole.com</id>
+ <link href="http://danmiley.gethub.com/www/atom.xml" rel="self"/>
+ <link href="http://danmiley.gethub.com/www/"/>
+ <updated>2015-10-08T16:04:13-07:00</updated>
+ <id>http://danmiley.gethub.com</id>
  <author>
-   <name>Mark Otto</name>
-   <email>markdotto@gmail.com</email>
+   <name>Dan Miley</name>
+   <email>dan.miley@gmail.com</email>
  </author>
 
  
  <entry>
    <title>test</title>
-   <link href="http://lanyon.getpoole.com/trial_category/2015/10/06/bestie/"/>
+   <link href="http://danmiley.gethub.com/tech/2015/10/06/bestie/"/>
    <updated>2015-10-06T13:13:00-07:00</updated>
-   <id>http://lanyon.getpoole.com/www/trial_category/2015/10/06/bestie</id>
+   <id>http://danmiley.gethub.com/www/tech/2015/10/06/bestie</id>
    <content type="html">
 &lt;p class=&quot;message&quot;&gt;
   This is a message block.. Kind of handy!
 &lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Here&amp;#8217;s some normal text.  you&amp;#8217;ll see _html&lt;/i&gt;
-  You can make words &lt;b&gt;bold&lt;/b&gt;, &lt;i&gt;italic&lt;/i&gt;, &lt;span style=&quot;text-decoration:underline;&quot;&gt;underlined&lt;/span&gt;, &lt;code&gt;verbatim&lt;/code&gt; and &lt;code&gt;code&lt;/code&gt;, and, if you must, ‘+strike-through+’. Text in the code and verbatim string is not processed for Org mode specific syntax, it is exported verbatim.&lt;/p&gt;
+  You can make words &lt;b&gt;bold&lt;/b&gt;, &lt;i&gt;italic&lt;/i&gt;, &lt;span style=&quot;text-decoration:underline;&quot;&gt;underlined&lt;/span&gt;, &lt;code&gt;verbatim&lt;/code&gt; and &lt;code&gt;code&lt;/code&gt;, &lt;code&gt;code element&lt;/code&gt;  and, if you must, &lt;del&gt;strike-through&lt;/del&gt;. Text in the code and verbatim string is not processed for Org mode specific syntax, it is exported verbatim.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Awesome Block Quote:
+    Everything should be made as simple as possible,
+    but not any simpler &amp;#8211; Albert Einstein&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;Here&amp;#8217;s the list:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;first item&lt;/li&gt;
@@ -38,6 +43,11 @@ Some example from a text file.
 &lt;h3&gt;we like 4&lt;/h3&gt;
 &lt;p&gt;yes we like 4&lt;/p&gt;
 &lt;h2&gt;asdf  killa&lt;/h2&gt;
+&lt;table&gt;
+  &lt;tr&gt;&lt;th&gt;Name&lt;/th&gt;&lt;th&gt;Phone&lt;/th&gt;&lt;th&gt;Age&lt;/th&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;Peter&lt;/td&gt;&lt;td&gt;1234&lt;/td&gt;&lt;td&gt;17&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;Anna&lt;/td&gt;&lt;td&gt;4321&lt;/td&gt;&lt;td&gt;25&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
 
 
 </content>
@@ -45,9 +55,9 @@ Some example from a text file.
  
  <entry>
    <title>Welcome to Jekyll!</title>
-   <link href="http://lanyon.getpoole.com/jekyll/update/2015/10/06/welcome-to-jekyll/"/>
+   <link href="http://danmiley.gethub.com/jekyll/update/2015/10/06/welcome-to-jekyll/"/>
    <updated>2015-10-06T09:11:59-07:00</updated>
-   <id>http://lanyon.getpoole.com/www/jekyll/update/2015/10/06/welcome-to-jekyll</id>
+   <id>http://danmiley.gethub.com/www/jekyll/update/2015/10/06/welcome-to-jekyll</id>
    <content type="html">&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve --watch&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
 &lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
@@ -67,9 +77,9 @@ Some example from a text file.
  
  <entry>
    <title>source code</title>
-   <link href="http://lanyon.getpoole.com/2015/10/02/source-code/"/>
+   <link href="http://danmiley.gethub.com/2015/10/02/source-code/"/>
    <updated>2015-10-02T00:00:00-07:00</updated>
-   <id>http://lanyon.getpoole.com/www/2015/10/02/source-code</id>
+   <id>http://danmiley.gethub.com/www/2015/10/02/source-code</id>
    <content type="html">
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;rubygems&amp;#39;&lt;/span&gt;
 &lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;org-ruby&amp;#39;&lt;/span&gt;
@@ -87,20 +97,20 @@ Some example from a text file.
  
  <entry>
    <title>liquid....</title>
-   <link href="http://lanyon.getpoole.com/2015/10/01/liquid/"/>
+   <link href="http://danmiley.gethub.com/2015/10/01/liquid/"/>
    <updated>2015-10-01T00:00:00-07:00</updated>
-   <id>http://lanyon.getpoole.com/www/2015/10/01/liquid</id>
+   <id>http://danmiley.gethub.com/www/2015/10/01/liquid</id>
    <content type="html">&lt;p&gt;hello world&lt;/p&gt;
 &lt;p&gt;or&lt;/p&gt;
-&lt;p&gt;2015-10-08T12:00:08-07:00&lt;/p&gt;
+&lt;p&gt;2015-10-08T16:04:13-07:00&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
    <title>Firtie</title>
-   <link href="http://lanyon.getpoole.com/2015/10/01/firtie/"/>
+   <link href="http://danmiley.gethub.com/2015/10/01/firtie/"/>
    <updated>2015-10-01T00:00:00-07:00</updated>
-   <id>http://lanyon.getpoole.com/www/2015/10/01/firtie</id>
+   <id>http://danmiley.gethub.com/www/2015/10/01/firtie</id>
    <content type="html">
 &lt;p&gt;Here is a post, minimal markdown&lt;/p&gt;
 
@@ -111,15 +121,20 @@ Some example from a text file.
  
  <entry>
    <title>Jekyll and Org together</title>
-   <link href="http://lanyon.getpoole.com/2015/08/01/tango/"/>
+   <link href="http://danmiley.gethub.com/2015/08/01/tango/"/>
    <updated>2015-08-01T00:00:00-07:00</updated>
-   <id>http://lanyon.getpoole.com/www/2015/08/01/tango</id>
+   <id>http://danmiley.gethub.com/www/2015/08/01/tango</id>
    <content type="html">
 &lt;p&gt;we can somewhat do this, right?&lt;/p&gt;
 &lt;div class=&quot;photofloatr&quot;&gt;
   &lt;p&gt;&lt;img src=&quot;/www/public/images/a9office.jpeg&quot; width=&quot;300&quot;
     height=&quot;150&quot; alt=&quot;A9 Office&quot;&gt;&lt;/p&gt;
   &lt;p&gt;A photo downtown Palo Alto&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;photofloatr&quot;&gt;
+  &lt;p&gt;&lt;img src=&quot;/www/public/images/screengrab.gif&quot; width=&quot;600&quot;
+    height=&quot;400&quot; alt=&quot;Screen Grabbie&quot;&gt;&lt;/p&gt;
+  &lt;p&gt;Running Da Jekylll&lt;/p&gt;
 &lt;/div&gt;
 
 
@@ -128,9 +143,9 @@ Some example from a text file.
  
  <entry>
    <title>Introducing Lanyon</title>
-   <link href="http://lanyon.getpoole.com/2014/01/02/introducing-lanyon/"/>
+   <link href="http://danmiley.gethub.com/2014/01/02/introducing-lanyon/"/>
    <updated>2014-01-02T00:00:00-08:00</updated>
-   <id>http://lanyon.getpoole.com/www/2014/01/02/introducing-lanyon</id>
+   <id>http://danmiley.gethub.com/www/2014/01/02/introducing-lanyon</id>
    <content type="html">&lt;p&gt;Lanyon is an unassuming &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; theme that places content first by tucking away navigation in a hidden drawer. It’s based on &lt;a href=&quot;http://getpoole.com&quot;&gt;Poole&lt;/a&gt;, the Jekyll butler.&lt;/p&gt;
 
 &lt;h3 id=&quot;built-on-poole&quot;&gt;Built on Poole&lt;/h3&gt;
@@ -173,9 +188,9 @@ Some example from a text file.
  
  <entry>
    <title>Example content</title>
-   <link href="http://lanyon.getpoole.com/2014/01/01/example-content/"/>
+   <link href="http://danmiley.gethub.com/2014/01/01/example-content/"/>
    <updated>2014-01-01T00:00:00-08:00</updated>
-   <id>http://lanyon.getpoole.com/www/2014/01/01/example-content</id>
+   <id>http://danmiley.gethub.com/www/2014/01/01/example-content</id>
    <content type="html">&lt;div class=&quot;message&quot;&gt;
   Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
 &lt;/div&gt;
@@ -303,9 +318,9 @@ Some example from a text file.
  
  <entry>
    <title>What's Jekyll?</title>
-   <link href="http://lanyon.getpoole.com/2013/12/31/whats-jekyll/"/>
+   <link href="http://danmiley.gethub.com/2013/12/31/whats-jekyll/"/>
    <updated>2013-12-31T00:00:00-08:00</updated>
-   <id>http://lanyon.getpoole.com/www/2013/12/31/whats-jekyll</id>
+   <id>http://danmiley.gethub.com/www/2013/12/31/whats-jekyll</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From &lt;a href=&quot;https://github.com/mojombo/jekyll/blob/master/README.markdown&quot;&gt;the project’s readme&lt;/a&gt;:&lt;/p&gt;
 
 &lt;blockquote&gt;

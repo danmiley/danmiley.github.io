@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Daily Doppio</title>
-    <description>A reserved &lt;a href=&quot;http://jekyllrb.com&quot; target=&quot;_blank&quot;&gt;Jekyll&lt;/a&gt; theme that places the utmost gravity on content with a hidden drawer. Made by &lt;a href=&quot;https://twitter.com/mdo&quot; target=&quot;_blank&quot;&gt;@mdo&lt;/a&gt;.</description>
-    <link>http://lanyon.getpoole.com/www/</link>
-    <atom:link href="http://lanyon.getpoole.com/www/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 08 Oct 2015 12:00:08 -0700</pubDate>
-    <lastBuildDate>Thu, 08 Oct 2015 12:00:08 -0700</lastBuildDate>
+    <description>Bringing the Awesome since 2015</description>
+    <link>http://danmiley.gethub.com/www/</link>
+    <atom:link href="http://danmiley.gethub.com/www/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Thu, 08 Oct 2015 16:04:13 -0700</pubDate>
+    <lastBuildDate>Thu, 08 Oct 2015 16:04:13 -0700</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -16,7 +16,12 @@
   This is a message block.. Kind of handy!
 &lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Here&amp;#8217;s some normal text.  you&amp;#8217;ll see _html&lt;/i&gt;
-  You can make words &lt;b&gt;bold&lt;/b&gt;, &lt;i&gt;italic&lt;/i&gt;, &lt;span style=&quot;text-decoration:underline;&quot;&gt;underlined&lt;/span&gt;, &lt;code&gt;verbatim&lt;/code&gt; and &lt;code&gt;code&lt;/code&gt;, and, if you must, ‘+strike-through+’. Text in the code and verbatim string is not processed for Org mode specific syntax, it is exported verbatim.&lt;/p&gt;
+  You can make words &lt;b&gt;bold&lt;/b&gt;, &lt;i&gt;italic&lt;/i&gt;, &lt;span style=&quot;text-decoration:underline;&quot;&gt;underlined&lt;/span&gt;, &lt;code&gt;verbatim&lt;/code&gt; and &lt;code&gt;code&lt;/code&gt;, &lt;code&gt;code element&lt;/code&gt;  and, if you must, &lt;del&gt;strike-through&lt;/del&gt;. Text in the code and verbatim string is not processed for Org mode specific syntax, it is exported verbatim.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Awesome Block Quote:
+    Everything should be made as simple as possible,
+    but not any simpler &amp;#8211; Albert Einstein&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;Here&amp;#8217;s the list:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;first item&lt;/li&gt;
@@ -32,19 +37,24 @@ Some example from a text file.
 &lt;h3&gt;we like 4&lt;/h3&gt;
 &lt;p&gt;yes we like 4&lt;/p&gt;
 &lt;h2&gt;asdf  killa&lt;/h2&gt;
+&lt;table&gt;
+  &lt;tr&gt;&lt;th&gt;Name&lt;/th&gt;&lt;th&gt;Phone&lt;/th&gt;&lt;th&gt;Age&lt;/th&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;Peter&lt;/td&gt;&lt;td&gt;1234&lt;/td&gt;&lt;td&gt;17&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;Anna&lt;/td&gt;&lt;td&gt;4321&lt;/td&gt;&lt;td&gt;25&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
 
 
 </description>
         <pubDate>Tue, 06 Oct 2015 13:13:00 -0700</pubDate>
-        <link>http://lanyon.getpoole.com/www/trial_category/2015/10/06/bestie/</link>
-        <guid isPermaLink="true">http://lanyon.getpoole.com/www/trial_category/2015/10/06/bestie/</guid>
+        <link>http://danmiley.gethub.com/www/tech/2015/10/06/bestie/</link>
+        <guid isPermaLink="true">http://danmiley.gethub.com/www/tech/2015/10/06/bestie/</guid>
         
         <category>jekyll</category>
         
         <category>org-mode</category>
         
         
-        <category>trial_category</category>
+        <category>tech</category>
         
       </item>
     
@@ -66,8 +76,8 @@ Some example from a text file.
 
 </description>
         <pubDate>Tue, 06 Oct 2015 09:11:59 -0700</pubDate>
-        <link>http://lanyon.getpoole.com/www/jekyll/update/2015/10/06/welcome-to-jekyll/</link>
-        <guid isPermaLink="true">http://lanyon.getpoole.com/www/jekyll/update/2015/10/06/welcome-to-jekyll/</guid>
+        <link>http://danmiley.gethub.com/www/jekyll/update/2015/10/06/welcome-to-jekyll/</link>
+        <guid isPermaLink="true">http://danmiley.gethub.com/www/jekyll/update/2015/10/06/welcome-to-jekyll/</guid>
         
         
         <category>jekyll</category>
@@ -92,8 +102,8 @@ Some example from a text file.
 
 </description>
         <pubDate>Fri, 02 Oct 2015 00:00:00 -0700</pubDate>
-        <link>http://lanyon.getpoole.com/www/2015/10/02/source-code/</link>
-        <guid isPermaLink="true">http://lanyon.getpoole.com/www/2015/10/02/source-code/</guid>
+        <link>http://danmiley.gethub.com/www/2015/10/02/source-code/</link>
+        <guid isPermaLink="true">http://danmiley.gethub.com/www/2015/10/02/source-code/</guid>
         
         <category>jekyll</category>
         
@@ -106,11 +116,11 @@ Some example from a text file.
         <title>liquid....</title>
         <description>&lt;p&gt;hello world&lt;/p&gt;
 &lt;p&gt;or&lt;/p&gt;
-&lt;p&gt;2015-10-08T12:00:08-07:00&lt;/p&gt;
+&lt;p&gt;2015-10-08T16:04:13-07:00&lt;/p&gt;
 </description>
         <pubDate>Thu, 01 Oct 2015 00:00:00 -0700</pubDate>
-        <link>http://lanyon.getpoole.com/www/2015/10/01/liquid/</link>
-        <guid isPermaLink="true">http://lanyon.getpoole.com/www/2015/10/01/liquid/</guid>
+        <link>http://danmiley.gethub.com/www/2015/10/01/liquid/</link>
+        <guid isPermaLink="true">http://danmiley.gethub.com/www/2015/10/01/liquid/</guid>
         
         <category>jekyll</category>
         
@@ -128,8 +138,8 @@ Some example from a text file.
 &lt;img class=&quot;emoji&quot; title=&quot;:smile:&quot; alt=&quot;:smile:&quot; src=&quot;https://assets.github.com/images/icons/emoji/unicode/1f604.png&quot; height=&quot;20&quot; width=&quot;20&quot; align=&quot;absmiddle&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 01 Oct 2015 00:00:00 -0700</pubDate>
-        <link>http://lanyon.getpoole.com/www/2015/10/01/firtie/</link>
-        <guid isPermaLink="true">http://lanyon.getpoole.com/www/2015/10/01/firtie/</guid>
+        <link>http://danmiley.gethub.com/www/2015/10/01/firtie/</link>
+        <guid isPermaLink="true">http://danmiley.gethub.com/www/2015/10/01/firtie/</guid>
         
         
       </item>
@@ -143,12 +153,17 @@ Some example from a text file.
     height=&quot;150&quot; alt=&quot;A9 Office&quot;&gt;&lt;/p&gt;
   &lt;p&gt;A photo downtown Palo Alto&lt;/p&gt;
 &lt;/div&gt;
+&lt;div class=&quot;photofloatr&quot;&gt;
+  &lt;p&gt;&lt;img src=&quot;/www/public/images/screengrab.gif&quot; width=&quot;600&quot;
+    height=&quot;400&quot; alt=&quot;Screen Grabbie&quot;&gt;&lt;/p&gt;
+  &lt;p&gt;Running Da Jekylll&lt;/p&gt;
+&lt;/div&gt;
 
 
 </description>
         <pubDate>Sat, 01 Aug 2015 00:00:00 -0700</pubDate>
-        <link>http://lanyon.getpoole.com/www/2015/08/01/tango/</link>
-        <guid isPermaLink="true">http://lanyon.getpoole.com/www/2015/08/01/tango/</guid>
+        <link>http://danmiley.gethub.com/www/2015/08/01/tango/</link>
+        <guid isPermaLink="true">http://danmiley.gethub.com/www/2015/08/01/tango/</guid>
         
         <category>jekyll</category>
         
@@ -198,8 +213,8 @@ Some example from a text file.
 &lt;p&gt;Thanks!&lt;/p&gt;
 </description>
         <pubDate>Thu, 02 Jan 2014 00:00:00 -0800</pubDate>
-        <link>http://lanyon.getpoole.com/www/2014/01/02/introducing-lanyon/</link>
-        <guid isPermaLink="true">http://lanyon.getpoole.com/www/2014/01/02/introducing-lanyon/</guid>
+        <link>http://danmiley.gethub.com/www/2014/01/02/introducing-lanyon/</link>
+        <guid isPermaLink="true">http://danmiley.gethub.com/www/2014/01/02/introducing-lanyon/</guid>
         
         
       </item>
@@ -330,8 +345,8 @@ Some example from a text file.
 &lt;p&gt;Want to see something else added? &lt;a href=&quot;https://github.com/poole/poole/issues/new&quot;&gt;Open an issue.&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 01 Jan 2014 00:00:00 -0800</pubDate>
-        <link>http://lanyon.getpoole.com/www/2014/01/01/example-content/</link>
-        <guid isPermaLink="true">http://lanyon.getpoole.com/www/2014/01/01/example-content/</guid>
+        <link>http://danmiley.gethub.com/www/2014/01/01/example-content/</link>
+        <guid isPermaLink="true">http://danmiley.gethub.com/www/2014/01/01/example-content/</guid>
         
         
       </item>
@@ -349,8 +364,8 @@ Some example from a text file.
 &lt;p&gt;Find out more by &lt;a href=&quot;https://github.com/mojombo/jekyll&quot;&gt;visiting the project on GitHub&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Tue, 31 Dec 2013 00:00:00 -0800</pubDate>
-        <link>http://lanyon.getpoole.com/www/2013/12/31/whats-jekyll/</link>
-        <guid isPermaLink="true">http://lanyon.getpoole.com/www/2013/12/31/whats-jekyll/</guid>
+        <link>http://danmiley.gethub.com/www/2013/12/31/whats-jekyll/</link>
+        <guid isPermaLink="true">http://danmiley.gethub.com/www/2013/12/31/whats-jekyll/</guid>
         
         
       </item>

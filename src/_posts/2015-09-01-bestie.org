@@ -6,7 +6,7 @@
 #+DATE: 2015-10-06 Tue 13:13
 #+TITLE: test
 #+DESCRIPTION: test_case
-#+CATEGORIES: trial_category
+#+CATEGORIES:  tech
 #+TAGS: jekyll org-mode
 
 
@@ -17,8 +17,13 @@
 #+END_HTML
 
 /Here's some normal text.  you'll see _html/
-You can make words *bold*, /italic/, _underlined_, =verbatim= and ~code~, and, if you must, ‘+strike-through+’. Text in the code and verbatim string is not processed for Org mode specific syntax, it is exported verbatim. 
+You can make words *bold*, /italic/, _underlined_, =verbatim= and ~code~, ~code element~  and, if you must, +strike-through+. Text in the code and verbatim string is not processed for Org mode specific syntax, it is exported verbatim. 
 
+#+BEGIN_QUOTE
+     Awesome Block Quote:
+     Everything should be made as simple as possible,
+     but not any simpler -- Albert Einstein
+#+END_QUOTE
 
 Here's the list:
 
@@ -38,5 +43,10 @@ Here's the list:
 yes we like 4
 
 ** asdf  killa
+
+     | Name  | Phone | Age |
+     |-------+-------+-----|
+     | Peter |  1234 |  17 |
+     | Anna  |  4321 |  25 |
 
 
