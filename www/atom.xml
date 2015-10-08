@@ -4,7 +4,7 @@
  <title>Daily Doppio</title>
  <link href="http://lanyon.getpoole.com/www/atom.xml" rel="self"/>
  <link href="http://lanyon.getpoole.com/www/"/>
- <updated>2015-10-08T10:36:44-07:00</updated>
+ <updated>2015-10-08T12:00:08-07:00</updated>
  <id>http://lanyon.getpoole.com</id>
  <author>
    <name>Mark Otto</name>
@@ -14,12 +14,30 @@
  
  <entry>
    <title>test</title>
-   <link href="http://lanyon.getpoole.com/sdf/2015/10/06/bestie/"/>
+   <link href="http://lanyon.getpoole.com/trial_category/2015/10/06/bestie/"/>
    <updated>2015-10-06T13:13:00-07:00</updated>
-   <id>http://lanyon.getpoole.com/www/sdf/2015/10/06/bestie</id>
+   <id>http://lanyon.getpoole.com/www/trial_category/2015/10/06/bestie</id>
    <content type="html">
-&lt;h1&gt;lest do thiss&lt;/h1&gt;
-&lt;h2&gt;asdfasd&lt;/h2&gt;
+&lt;p class=&quot;message&quot;&gt;
+  This is a message block.. Kind of handy!
+&lt;/p&gt;
+&lt;p&gt;&lt;i&gt;Here&amp;#8217;s some normal text.  you&amp;#8217;ll see _html&lt;/i&gt;
+  You can make words &lt;b&gt;bold&lt;/b&gt;, &lt;i&gt;italic&lt;/i&gt;, &lt;span style=&quot;text-decoration:underline;&quot;&gt;underlined&lt;/span&gt;, &lt;code&gt;verbatim&lt;/code&gt; and &lt;code&gt;code&lt;/code&gt;, and, if you must, ‘+strike-through+’. Text in the code and verbatim string is not processed for Org mode specific syntax, it is exported verbatim.&lt;/p&gt;
+&lt;p&gt;Here&amp;#8217;s the list:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;first item&lt;/li&gt;
+  &lt;li&gt;second item&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre class=&quot;example&quot;&gt;
+Some example from a text file.
+&lt;/pre&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.gnu.org/software/emacs/&quot;&gt;GNU Emacs&lt;/a&gt;&lt;/p&gt;
+&lt;h1&gt;let&amp;#8217; do this&lt;/h1&gt;
+&lt;h2&gt;we like header 2&lt;/h2&gt;
+&lt;h3&gt;we like 3&lt;/h3&gt;
+&lt;h3&gt;we like 4&lt;/h3&gt;
+&lt;p&gt;yes we like 4&lt;/p&gt;
+&lt;h2&gt;asdf  killa&lt;/h2&gt;
 
 
 </content>
@@ -74,7 +92,7 @@
    <id>http://lanyon.getpoole.com/www/2015/10/01/liquid</id>
    <content type="html">&lt;p&gt;hello world&lt;/p&gt;
 &lt;p&gt;or&lt;/p&gt;
-&lt;p&gt;2015-10-08T10:36:44-07:00&lt;/p&gt;
+&lt;p&gt;2015-10-08T12:00:08-07:00&lt;/p&gt;
 </content>
  </entry>
  
@@ -85,6 +103,9 @@
    <id>http://lanyon.getpoole.com/www/2015/10/01/firtie</id>
    <content type="html">
 &lt;p&gt;Here is a post, minimal markdown&lt;/p&gt;
+
+&lt;p&gt;emoji enabled
+&lt;img class=&quot;emoji&quot; title=&quot;:smile:&quot; alt=&quot;:smile:&quot; src=&quot;https://assets.github.com/images/icons/emoji/unicode/1f604.png&quot; height=&quot;20&quot; width=&quot;20&quot; align=&quot;absmiddle&quot; /&gt;&lt;/p&gt;
 </content>
  </entry>
  
