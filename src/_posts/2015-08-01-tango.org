@@ -4,6 +4,13 @@
 
 we can somewhat do this, right?
 
+Here is a list:
+- item 1
+- here's number 2
+- dont care about what this says
+
+
+
 
 #+BEGIN_HTML
 <div class="photofloatr">

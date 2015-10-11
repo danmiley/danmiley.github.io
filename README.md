@@ -12,3 +12,9 @@ You may also wish to add the {% feed_meta %} tag to your layout's <head> section
 
 built with Lanyon -an unassuming [Jekyll](http://jekyllrb.com) theme
 
+setup
+after clone:
+
+ git clone http://github.com/eggcaker/jekyll-org.git _plugins/jekyll-org/
+ git submodule add https://github.com/eggcaker/jekyll-org.git _plugins/jekyll-org
+   

@@ -4,7 +4,7 @@
  <title>Daily Doppio</title>
  <link href="http://danmiley.gethub.com/www/atom.xml" rel="self"/>
  <link href="http://danmiley.gethub.com/www/"/>
- <updated>2015-10-08T16:04:13-07:00</updated>
+ <updated>2015-10-11T16:27:22-07:00</updated>
  <id>http://danmiley.gethub.com</id>
  <author>
    <name>Dan Miley</name>
@@ -102,7 +102,7 @@ Some example from a text file.
    <id>http://danmiley.gethub.com/www/2015/10/01/liquid</id>
    <content type="html">&lt;p&gt;hello world&lt;/p&gt;
 &lt;p&gt;or&lt;/p&gt;
-&lt;p&gt;2015-10-08T16:04:13-07:00&lt;/p&gt;
+&lt;p&gt;2015-10-11T16:27:22-07:00&lt;/p&gt;
 </content>
  </entry>
  
@@ -126,6 +126,12 @@ Some example from a text file.
    <id>http://danmiley.gethub.com/www/2015/08/01/tango</id>
    <content type="html">
 &lt;p&gt;we can somewhat do this, right?&lt;/p&gt;
+&lt;p&gt;Here is a list:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;item 1&lt;/li&gt;
+  &lt;li&gt;here&amp;#8217;s number 2&lt;/li&gt;
+  &lt;li&gt;dont care about what this says&lt;/li&gt;
+&lt;/ul&gt;
 &lt;div class=&quot;photofloatr&quot;&gt;
   &lt;p&gt;&lt;img src=&quot;/www/public/images/a9office.jpeg&quot; width=&quot;300&quot;
     height=&quot;150&quot; alt=&quot;A9 Office&quot;&gt;&lt;/p&gt;
