@@ -1,0 +1,24 @@
+#+TITLE: Jekyll and Org together
+#+LAYOUT: post
+#+TAGS: jekyll org-mode
+
+we can somewhat do this, right?
+
+
+#+BEGIN_HTML
+<div class="photofloatr">
+  <p><img src="/www/public/images/a9office.jpeg" width="300"
+    height="150" alt="A9 Office"></p>
+  <p>A photo downtown Palo Alto</p>
+</div>
+#+END_HTML
+
+#+BEGIN_HTML
+<div class="photofloatr">
+  <p><img src="/www/public/images/screengrab.gif" width="600"
+    height="400" alt="Screen Grabbie"></p>
+  <p>Running Da Jekylll</p>
+</div>
+#+END_HTML
+
+

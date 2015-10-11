@@ -1,0 +1,16 @@
+#+LAYOUT: page
+#+TITLE: Table of contents
+
+
+we can somewhat do this, right?
+
+
+#+BEGIN_HTML
+<div class="photofloatr">
+  <p><img src="/www/public/images/a9office.jpeg" width="300"
+    height="150" alt="A9 Office"></p>
+  <p>A photo downtown Palo Alto</p>
+</div>
+#+END_HTML
+
+
