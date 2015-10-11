@@ -1,0 +1,10 @@
+#+STARTUP: showall
+#+STARTUP: hidestars
+#+OPTIONS: H:2 num:nil tags:nil toc:nil timestamps:t
+#+LAYOUT: post
+#+AUTHOR: nil
+#+DATE: 2015-10-06 Tue 13:13
+#+TITLE: asdf sd 
+#+DESCRIPTION: XXX 
+#+CATEGORIES:  
+#+TAGS: 
