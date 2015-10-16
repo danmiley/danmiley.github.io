@@ -1,0 +1,251 @@
+#+STARTUP: showall
+#+STARTUP: hidestars
+#+OPTIONS: H:2 num:nil tags:nil toc:nil timestamps:t
+#+LAYOUT: post
+#+AUTHOR: Dan Miley
+#+DATE: 2015-10-13 Tue 13:13
+#+TITLE: AWS Reinvent 2015 Findings and Sessions
+#+DESCRIPTION: AWS Reinvent
+#+CATEGORIES:  tech
+#+TAGS: aws cloud scaling reinvent
+
+For Adobe/Oz, AWS Re:invent 2015 was the occasion for several important announcements.
+Primary themes this year:
+	- Major Enterprise conversions from hosted to cloud
+	- Business analytics offerings
+	- Internet of Things Platform 
+	- Deployment Tooling and Orchestration management
+	- Serverless platforms   - no server is easier to manage than 'no server'
+
+A few of the interesting product announcements were:
+ 	- Amazon Inspector - security assessment tool
+	- Lambda extensions -  VPC,  5 minute max from 60 sec, Scheduling
+	- ECS Registry - out later this year.
+	- QuickSight - business analytics tool
+	- MariaDB - next gen iteration MySQL
+	- IoT -    AWS platform, this was an unpleasant surprise for the IoT startups attending
+	- Kinesis Firehose - get big volumes of data into Kinesis...   value for Kinesis user base
+	- Snowball - accelerate enterprise conversion to cloud.  one Customers' Petabyte legacy stores would otherwise take "8 years" to transfer over wire.
+	
+Missing (at least for us) was a hope of.
+	- AWS hosted MongoDB
+	- Lambda support for ruby (we got python instead)
+
+The serverless platform theme is especially interesting, external customers reported a 2X order of magnitude reduction in costs.
+The implicit bargain we see here is cost reduction in exchange for vendor lockin. AWS is a big absorber of open source solutions
+but is pointedly not making Lambda available as open soure, keeping the proprietary edge.   
+
+There were complaints from startups about Amazon announcements that collided with the emergent AWS ecosystem.
+Amazon response here is that they warn companies not to develop ahead of their roadmap.   Problem is that AWS roadmap
+changes quickly and can be difficult to know what is coming.
+
+We at Oz/Adobe have seen this as well, probably makes sense to check in regularly with AWS Adobe contacts on AWS Roadmap with our partner status to avoid inventing.
+
+I did one bootcamp.. the scalable Microservices automation pipeline camp. The full AWS CI toolchain with Jenkins, DockerHub and ECS.
+My progress included:
+
+	- start with reference weather / stock type microservice
+	- CodePipeline - model/setup build test and deploy 
+	- AWS CodeDeploy/CLoudformation  - continuous deploys to a fleet (old Apollo amazon internal tool)
+	- Jenkins - we were given a jenkins server for tests
+	- build Docker containers from CLI
+	- Push to Dockoer Hub 
+	- Deploy Service on ECS
+	- tests run on production
+	- integrate Consul for service discovery
+
+** AWS Reinvent
+AWS official Summary of last weeks announcements:
+  [[https://aws.amazon.com/blogs/aws/aws-week-in-review-october-5-2015/][AWS Week in Review]]
+
+*** Some Top Level Sessions/Summaries
+Jeff Barrs summary of all the big announcements coming from AWS:
+[[https://aws.amazon.com/blogs/aws/][Jeff Barr Reinvent]]
+
+AWS Reinvent 2015 Youtube Channel page:
+[[https://www.youtube.com/user/AmazonWebServices/featured][AWS Reinvent YouTube Channel]]
+
+Werner's Keynote, some big-picture great insights here, I would say worth watching the whole session.
+[[https://www.youtube.com/watch?v=y-0Wf2Zyi5Q][Werners Keynote]]
+
+Werner referred to this seminal paper written in the 1960's on the management of complexity:
+[[http://t.co/k9zX3lScFY][Archicture Of Complexity, ]]
+
+*** Slideshare Pressos:
+
+All 250+ of  Reinvent2015Slideshare decks/summaries:
+[[http://www.slideshare.net/AmazonWebServices/tag/reinvent2015][AWS Revinvent Slideshare]]
+
+*** Ops/DevOps/Infra
+
+Docker corp's single presso this year at re:invent:
+[[http://www.slideshare.net/jpetazzo/from-development-environments-to-production-deployments-with-docker-compose-machine-swarm-and-ecs-cli-aws-reinvent-2015 ][ Docker, Compose, Machine, Swarm, and ECS CLI  ]]
+
+[[http://www.slideshare.net/AmazonWebServices/dvo303-scaling-infrastructure-operations-with-aws][dvo303 scaling infrastructure operations with aws]]
+
+[[http://www.slideshare.net/AmazonWebServices/dvo201-scaling-your-web-applications-with-aws-elastic-beanstalk][dvo201 scaling your web applications with aws elastic beanstalk]]
+
+[[http://www.slideshare.net/amazonwebservices/cmp310-data-processing-pipelines-using-containers-spot-instances][cmp310 data processing pipelines using containers spot instances]]
+
+[[http://www.slideshare.net/AmazonWebServices/dvo315-log-monitor-and-analyze-your-it-with-amazon-cloudwatch][dvo315 log monitor and analyze your it with amazon cloudwatch]]
+
+[[http://www.slideshare.net/AmazonWebServices/dvo301-aws-opsworks-under-the-hood][dvo301 aws opsworks under the hood]]
+
+[[http://www.slideshare.net/AmazonWebServices/cmp201-all-you-need-to-know-about-auto-scaling][cmp201 all you need to know about auto scaling]]
+
+[[http://www.slideshare.net/AmazonWebServices/stg304-deploying-a-disaster-recovery-site-on-aws][stg304 deploying a disaster recovery site on aws]]
+
+[[http://www.slideshare.net/AmazonWebServices/net308-consolidating-dns-data-in-the-cloud-with-amazon-route-53][net308 consolidating dns data in the cloud with amazon route 53]]
+
+[[http://www.slideshare.net/AmazonWebServices/sec314-aws-for-the-enterprise-implementing-policy-governance-security][sec314 aws for the enterprise implementing policy governance security]]
+
+[[http://www.slideshare.net/AmazonWebServices/dev301-automating-aws-with-the-aws-cli][dev301 automating aws with the aws cli]]
+
+
+*** Architecture
+
+[[http://www.slideshare.net/AmazonWebServices/bdt404-largescale-etl-data-flows-waws-data-pipeline-dataduct][bdt404 largescale etl data flows waws data pipeline dataduct]]
+
+[[http://www.slideshare.net/AmazonWebServices/net302-delivering-a-dbaas-using-advanced-aws-networking][net302 delivering a dbaas using advanced-aws networking]]
+
+[[http://www.slideshare.net/AmazonWebServices/sec403-diving-into-aws-cloudtrail-events-w-apache-spark-on-emr][sec403 diving into aws cloudtrail events w apache spark on emr]]
+
+[[http://www.slideshare.net/AmazonWebServices/arc303-pure-play-video-ott-a-microservices-architecture][arc303 pure play video ott a-microservices-architecture]]
+
+[[http://www.slideshare.net/AmazonWebServices/stg312-amazon-glacier-deep-dive-cold-data-storage-in-aws][stg312 amazon glacier deep dive - cold data storage in aws]]
+
+[[http://www.slideshare.net/AmazonWebServices/stg206-using-amazon-cloudfront-for-your-websites-apps][stg206 using amazon cloudfront for your websites apps]]
+
+[[http://www.slideshare.net/AmazonWebServices/mbl402-mobile-identity-management-data-sync-using-amazon-cognito][mbl402 mobile identity management data sync-using amazon cognito]]
+
+[[http://www.slideshare.net/AmazonWebServices/cmp403-aws-lambda-simplifying-big-data-workloads][cmp403 aws lambda simplifying big data workloads]]
+
+
+*** Microservices
+
+[[http://www.slideshare.net/AmazonWebServices/arc303-pure-play-video-ott-a-microservices-architecture][arc303 pure play video ott a microservices architecture]]
+
+
+*** Performance/Optimization
+
+[[http://www.slideshare.net/AmazonWebServices/net404-making-every-packet-count][net404 making every packet  count]]
+
+[[http://www.slideshare.net/AmazonWebServices/stg406-using-s3-to-build-and-scale-an-unlimited-storage-service][stg406 using s3 to build and scale an unlimited storage service]]
+
+[[http://www.slideshare.net/AmazonWebServices/stg312-amazon-glacier-deep-dive-cold-data-storage-in-aws][stg312 amazon glacier deep dive cold data storage in aws]]
+
+[[http://www.slideshare.net/AmazonWebServices/stg206-using-amazon-cloudfront-for-your-websites-apps][stg206 using amazon cloudfront for your-websites apps]]
+
+[[http://www.slideshare.net/AmazonWebServices/arc301-scaling-up-to-your-first-10-million-users][arc301 scaling up to your first-10 million users]]
+
+
+*** Cost Optimization
+
+[[http://www.slideshare.net/AmazonWebServices/arc302-running-lean-architectures-optimizing-for-cost-efficiency][arc302 running lean architectures optimizing for cost efficiency]]
+
+[[http://www.slideshare.net/AmazonWebServices/ism402-cost-optimization-at-scale][ism402 cost optimization at  scale]]
+
+[[http://www.slideshare.net/AmazonWebServices/mbl402-mobile-identity-management-data-sync-using-amazon-cognito][mbl402 mobile identity management data sync using amazon cognito]]
+
+[[http://www.slideshare.net/AmazonWebServices/cmp311-using-spot-instances-to-lower-costs-and-get-more-capacity][Using Spot Instances to lower costs and get more capacity]]
+
+
+*** Security
+
+[[http://www.slideshare.net/AmazonWebServices/sec326-security-science-using-big-data][sec326 security science using big data]]
+
+[[http://www.slideshare.net/AmazonWebServices/sec324-new-introducing-amazon-inspector][sec324 introducing amazon inspector]]
+
+[[http://www.slideshare.net/AmazonWebServices/sec316-your-architecture-w-security-incident-response-simulations][sec316 your architecture with security incident response simulations]]
+
+[[http://www.slideshare.net/AmazonWebServices/spot303-security-operations-at-massive-scale][spot303 security operations at massive scale]]
+
+[[http://www.slideshare.net/AmazonWebServices/sec320-leveraging-the-power-of-aws-to-automate-security-compliance][sec320 leveraging the power of aws to automate security compliance]]
+
+[[http://www.slideshare.net/AmazonWebServices/sec402-enterprise-cloud-security-via-devsecops-20][sec402 enterprise cloud security via devsecops 20]]
+
+
+*** Mobile
+
+[[http://www.slideshare.net/AmazonWebServices/mbl402-mobile-identity-management-data-sync-using-amazon-cognito][mbl402 mobile identity management data sync using amazon cognito]]
+
+[[http://www.slideshare.net/AmazonWebServices/mbl309-analyze-mobile-app-data-and-build-predictive-applications][mbl309 analyze mobile app data and-build-predictive applications]]
+
+
+*** Big Data/EMR
+
+[[http://www.slideshare.net/AmazonWebServices/mbl402-mobile-identity-management-data-sync-using-amazon-cognito][mbl402 mobile identity management data sync using amazon cognito]]
+
+[[http://www.slideshare.net/AmazonWebServices/arc301-scaling-up-to-your-first-10-million-users][arc301 scaling up to your first 10 million users]]
+
+
+*** Enterprise/Migration
+
+[[http://www.slideshare.net/AmazonWebServices/spot210-zyngas-journey-back-to-the-aws-cloud][spot210 zyngas journey back to the aws cloud]]
+
+[[http://www.slideshare.net/AmazonWebServices/sec325-satisfy-pci-obligations-while-continuing-to-innovate][sec325 satisfy pci obligations while continuing to innovate]]
+
+[[http://www.slideshare.net/AmazonWebServices/dat304-amazon-rds-for-mysql-best-practices][dat304 amazon rds for mysql best-practices]]
+
+[[http://www.slideshare.net/AmazonWebServices/ism305-framework-create-cloud-strategy-accelerate-results][ism305 framework create cloud strategy accelerate results]]
+
+[[http://www.slideshare.net/AmazonWebServices/ism215-why-brooks-brothers-moved-their-production-sap-to-aws][ism215 why brooks brothers moved their production sap to aws]]
+
+[[http://www.slideshare.net/AmazonWebServices/dat205-new-launch-introduction-to-aws-database-migration-service][dat205 new launch introduction to aws database migration service]]
+
+[[http://www.slideshare.net/AmazonWebServices/sec321-implementing-policy-governance-security-for-enterprises][sec321 implementing policy governance security for enterprises]]
+
+
+*** Internet of Things
+
+[[http://www.slideshare.net/AmazonWebServices/mbl308-extending-alexas-builtin-skills-see-how-capital-one-did-it][mbl308 extending alexas builtin skills see-how capital one did it]]
+
+[[http://www.slideshare.net/AmazonWebServices/mbl203-drones-to-cars-connecting-the-devices-in-motion-to-the-cloud][mbl203 drones to cars connecting the devices in motion to the cloud]]
+
+[[http://www.slideshare.net/AmazonWebServices/mbl204-state-of-the-union-iot-powered-by-aws][mbl204 state of the union iot powered by aws]]
+
+[[http://www.slideshare.net/AmazonWebServices/mbl305-you-have-data-from-the-devices-now-what-getting-the-value-of-the-iot][mbl305 you have data from the-devices now what getting the value of the iot]]
+
+
+*** Deep/Machine Learning
+
+[[http://www.slideshare.net/AmazonWebServices/mbl309-analyze-mobile-app-data-and-build-predictive-applications][mbl309 analyze mobile app data and build predictive applications]]
+
+[[http://www.slideshare.net/AmazonWebServices/cmp305-deep-learning-on-aws-made-easycmp305][cmp305 deep learning on aws made easycmp305]]
+
+
+*** Management
+
+[[http://www.slideshare.net/AmazonWebServices/ism207-how-the-principles-of-lean-transform-innovation][ism207 how the principles of lean-transform innovation]]
+
+
+*** Research/Edgy/Misc Topics
+
+[[http://www.slideshare.net/AmazonWebServices/dat203-building-graph-databases-on-aws][dat203 building graph databases on aws]]
+
+[[http://www.slideshare.net/AmazonWebServices/dev201-aws-sdk-for-go-gophers-get-going-with-aws][dev201 aws sdk for go gophers get going with aws]]
+
+[[http://www.slideshare.net/AmazonWebServices/spot203-fourth-annual-startup-launches-hosted-by-werner-vogels][spot203 fourth annual startup launches hosted by werner vogels]]
+
+[[http://www.slideshare.net/AmazonWebServices/mbl310-alexa-voice-service-under-the-hood][mbl310 alexa voice service under the hood]]
+
+[[http://www.slideshare.net/AmazonWebServices/spot208-how-to-sponsor-a-diversity-circle-in-a-tech-workplace][spot208 how to sponsor a diversity circle in a tech workplace]]
+
+
+
+*** External press:
+
+[[http://searchaws.techtarget.com/opinion/AWS-reInvent-2015-to-focus-on-cloud-management-security][AWS reInvent 2015 to focus on cloud management security]]
+
+[[http://techcrunch.com/2014/11/13/amazonannounces-ec2-container-service-for-managing-docker-containers-on-aws/][ ECS manages docker containers   ]]
+
+[[http://www.infoworld.com/article/2990115/virtualization/container-management-and-monitoring-dominate-amazon-reinvent.html][container management and monitoring dominate amazon reinvent]]
+
+[[http://searchaws.techtarget.com/news/4500254811/New-Amazon-Elasticsearch-service-eases-setup-with-exceptions][New Amazon Elasticsearch service eases setup-with exceptions]]
+
+[[http://www.computerworld.com/article/2990994/public-cloud/day-two-of-re-invent-one-cloud-ring-to-rule-them-all.html][day two of re invent one cloud ring to rule them all]]
+
+
+*** Reddit comments about attending this year, logistics and how-to.. Jeff Barr participates
+
+[[https://www.reddit.com/r/aws/comments/3nxeo6/reinvent_too_crowded_this_year/][ Reinvent too crowded this year    ]]

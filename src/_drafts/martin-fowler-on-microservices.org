@@ -1,0 +1,13 @@
+#+STARTUP: showall
+#+STARTUP: hidestars
+#+OPTIONS: H:2 num:nil tags:nil toc:nil timestamps:t
+#+LAYOUT: post
+#+AUTHOR: nil
+#+DATE: 2015-10-13 Tue 13:13
+#+TITLE: Martin Fowler on Microservices 
+#+DESCRIPTION: XXX 
+#+CATEGORIES:  
+#+TAGS: aws microservices architecture
+
+
+http://martinfowler.com/articles/microservices.html

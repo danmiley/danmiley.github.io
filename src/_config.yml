@@ -20,17 +20,17 @@ gems:
 markdown: kramdown
 
 # Setup
-title:               Daily Doppio
-tagline:             'Peramulations'
-description:         'Bringing the Awesome since 2015'
-url:                 http://danmiley.gethub.com
+title:               Cloud Spotter
+tagline:             'Technical Investigations in Scale'
+description:         'Bringing the AweSome to AWS since 2011'
+url:                 https://github.com/danmiley/danmiley.github.io
 paginate:            5
 
 # About/contact
 author:
   name:              Dan Miley
   url:               https://twitter.com/danmiley
-  email:             dan.miley@gmail.com
+  email:             dmiley@adobe.com
 
 # Custom vars
 version:             1.0.0

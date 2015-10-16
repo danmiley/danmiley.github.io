@@ -1,378 +1,176 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Daily Doppio</title>
-    <description>Bringing the Awesome since 2015</description>
-    <link>http://danmiley.gethub.com/www/</link>
-    <atom:link href="http://danmiley.gethub.com/www/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 11 Oct 2015 16:27:22 -0700</pubDate>
-    <lastBuildDate>Sun, 11 Oct 2015 16:27:22 -0700</lastBuildDate>
+    <title>Cloud Spotter</title>
+    <description>Bringing the AweSome to AWS since 2011</description>
+    <link>https://github.com/danmiley/danmiley.github.io/www/</link>
+    <atom:link href="https://github.com/danmiley/danmiley.github.io/www/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Fri, 16 Oct 2015 12:59:18 -0700</pubDate>
+    <lastBuildDate>Fri, 16 Oct 2015 12:59:18 -0700</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
-        <title>test</title>
+        <title>AWS Reinvent 2015 Findings and Sessions</title>
         <description>
-&lt;p class=&quot;message&quot;&gt;
-  This is a message block.. Kind of handy!
-&lt;/p&gt;
-&lt;p&gt;&lt;i&gt;Here&amp;#8217;s some normal text.  you&amp;#8217;ll see _html&lt;/i&gt;
-  You can make words &lt;b&gt;bold&lt;/b&gt;, &lt;i&gt;italic&lt;/i&gt;, &lt;span style=&quot;text-decoration:underline;&quot;&gt;underlined&lt;/span&gt;, &lt;code&gt;verbatim&lt;/code&gt; and &lt;code&gt;code&lt;/code&gt;, &lt;code&gt;code element&lt;/code&gt;  and, if you must, &lt;del&gt;strike-through&lt;/del&gt;. Text in the code and verbatim string is not processed for Org mode specific syntax, it is exported verbatim.&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Awesome Block Quote:
-    Everything should be made as simple as possible,
-    but not any simpler &amp;#8211; Albert Einstein&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Here&amp;#8217;s the list:&lt;/p&gt;
+&lt;p&gt;For Adobe/Oz, AWS Re:invent 2015 was the occasion for several important announcements.
+  Primary themes this year:&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;first item&lt;/li&gt;
-  &lt;li&gt;second item&lt;/li&gt;
+  &lt;li&gt;Major Enterprise conversions from hosted to cloud&lt;/li&gt;
+  &lt;li&gt;Business analytics offerings&lt;/li&gt;
+  &lt;li&gt;Internet of Things Platform&lt;/li&gt;
+  &lt;li&gt;Deployment Tooling and Orchestration management&lt;/li&gt;
+  &lt;li&gt;Serverless platforms   - no server is easier to manage than &amp;#8216;no server&amp;#8217;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;pre class=&quot;example&quot;&gt;
-Some example from a text file.
-&lt;/pre&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.gnu.org/software/emacs/&quot;&gt;GNU Emacs&lt;/a&gt;&lt;/p&gt;
-&lt;h1&gt;let&amp;#8217; do this&lt;/h1&gt;
-&lt;h2&gt;we like header 2&lt;/h2&gt;
-&lt;h3&gt;we like 3&lt;/h3&gt;
-&lt;h3&gt;we like 4&lt;/h3&gt;
-&lt;p&gt;yes we like 4&lt;/p&gt;
-&lt;h2&gt;asdf  killa&lt;/h2&gt;
-&lt;table&gt;
-  &lt;tr&gt;&lt;th&gt;Name&lt;/th&gt;&lt;th&gt;Phone&lt;/th&gt;&lt;th&gt;Age&lt;/th&gt;&lt;/tr&gt;
-  &lt;tr&gt;&lt;td&gt;Peter&lt;/td&gt;&lt;td&gt;1234&lt;/td&gt;&lt;td&gt;17&lt;/td&gt;&lt;/tr&gt;
-  &lt;tr&gt;&lt;td&gt;Anna&lt;/td&gt;&lt;td&gt;4321&lt;/td&gt;&lt;td&gt;25&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;
+&lt;p&gt;A few of the interesting product announcements were:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Amazon Inspector - security assessment tool&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+  &lt;li&gt;Lambda extensions -  VPC,  5 minute max from 60 sec, Scheduling&lt;/li&gt;
+  &lt;li&gt;ECS Registry - out later this year.&lt;/li&gt;
+  &lt;li&gt;QuickSight - business analytics tool&lt;/li&gt;
+  &lt;li&gt;MariaDB - next gen iteration MySQL&lt;/li&gt;
+  &lt;li&gt;IoT -    AWS platform, this was an unpleasant surprise for the IoT startups attending&lt;/li&gt;
+  &lt;li&gt;Kinesis Firehose - get big volumes of data into Kinesis&amp;#8230;   value for Kinesis user base&lt;/li&gt;
+  &lt;li&gt;Snowball - accelerate enterprise conversion to cloud.  one Customers&amp;#8217; Petabyte legacy stores would otherwise take &amp;#8220;8 years&amp;#8221; to transfer over wire.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Missing (at least for us) was a hope of.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;AWS hosted MongoDB&lt;/li&gt;
+  &lt;li&gt;Lambda support for ruby (we got python instead)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The serverless platform theme is especially interesting, external customers reported a 2X order of magnitude reduction in costs.
+  The implicit bargain we see here is cost reduction in exchange for vendor lockin. AWS is a big absorber of open source solutions
+  but is pointedly not making Lambda available as open soure, keeping the proprietary edge.&lt;/p&gt;
+&lt;p&gt;There were complaints from startups about Amazon announcements that collided with the emergent AWS ecosystem.
+  Amazon response here is that they warn companies not to develop ahead of their roadmap.   Problem is that AWS roadmap
+  changes quickly and can be difficult to know what is coming.&lt;/p&gt;
+&lt;p&gt;We at Oz/Adobe have seen this as well, probably makes sense to check in regularly with AWS Adobe contacts on AWS Roadmap with our partner status to avoid inventing.&lt;/p&gt;
+&lt;p&gt;I did one bootcamp.. the scalable Microservices automation pipeline camp. The full AWS CI toolchain with Jenkins, DockerHub and ECS.
+  My progress included:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;start with reference weather / stock type microservice&lt;/li&gt;
+  &lt;li&gt;CodePipeline - model/setup build test and deploy&lt;/li&gt;
+  &lt;li&gt;AWS CodeDeploy/CLoudformation  - continuous deploys to a fleet (old Apollo amazon internal tool)&lt;/li&gt;
+  &lt;li&gt;Jenkins - we were given a jenkins server for tests&lt;/li&gt;
+  &lt;li&gt;build Docker containers from CLI&lt;/li&gt;
+  &lt;li&gt;Push to Dockoer Hub&lt;/li&gt;
+  &lt;li&gt;Deploy Service on ECS&lt;/li&gt;
+  &lt;li&gt;tests run on production&lt;/li&gt;
+  &lt;li&gt;integrate Consul for service discovery&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;AWS Reinvent&lt;/h2&gt;
+&lt;p&gt;AWS official Summary of last weeks announcements:
+  &lt;a href=&quot;https://aws.amazon.com/blogs/aws/aws-week-in-review-october-5-2015/&quot;&gt;AWS Week in Review&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Some Top Level Sessions/Summaries&lt;/h3&gt;
+&lt;p&gt;Jeff Barrs summary of all the big announcements coming from AWS:
+  &lt;a href=&quot;https://aws.amazon.com/blogs/aws/&quot;&gt;Jeff Barr Reinvent&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;AWS Reinvent 2015 Youtube Channel page:
+  &lt;a href=&quot;https://www.youtube.com/user/AmazonWebServices/featured&quot;&gt;AWS Reinvent YouTube Channel&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Werner&amp;#8217;s Keynote, some big-picture great insights here, I would say worth watching the whole session.
+  &lt;a href=&quot;https://www.youtube.com/watch?v=y-0Wf2Zyi5Q&quot;&gt;Werners Keynote&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Werner referred to this seminal paper written in the 1960&amp;#8217;s on the management of complexity:
+  &lt;a href=&quot;http://t.co/k9zX3lScFY&quot;&gt;Archicture Of Complexity, &lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Slideshare Pressos:&lt;/h3&gt;
+&lt;p&gt;All 250+ of  Reinvent2015Slideshare decks/summaries:
+  &lt;a href=&quot;http://www.slideshare.net/AmazonWebServices/tag/reinvent2015&quot;&gt;AWS Revinvent Slideshare&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Ops/DevOps/Infra&lt;/h3&gt;
+&lt;p&gt;Docker corp&amp;#8217;s single presso this year at re:invent:
+  &lt;a href=&quot;http://www.slideshare.net/jpetazzo/from-development-environments-to-production-deployments-with-docker-compose-machine-swarm-and-ecs-cli-aws-reinvent-2015 &quot;&gt; Docker, Compose, Machine, Swarm, and ECS CLI  &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.slideshare.net/AmazonWebServices/dvo303-scaling-infrastructure-operations-with-aws&quot;&gt;dvo303 scaling infrastructure operations with aws&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.slideshare.net/AmazonWebServices/dvo201-scaling-your-web-applications-with-aws-elastic-beanstalk&quot;&gt;dvo201 scaling your web applications with aws elastic beanstalk&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.slideshare.net/amazonwebservices/cmp310-data-processing-pipelines-using-containers-spot-instances&quot;&gt;cmp310 data processing pipelines using containers spot instances&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.slideshare.net/AmazonWebServices/dvo315-log-monitor-and-analyze-your-it-with-amazon-cloudwatch&quot;&gt;dvo315 log monitor and analyze your it with amazon cloudwatch&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.slideshare.net/AmazonWebServices/dvo301-aws-opsworks-under-the-hood&quot;&gt;dvo301 aws opsworks under the hood&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.slideshare.net/AmazonWebServices/cmp201-all-you-need-to-know-about-auto-scaling&quot;&gt;cmp201 all you need to know about auto scaling&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.slideshare.net/AmazonWebServices/stg304-deploying-a-disaster-recovery-site-on-aws&quot;&gt;stg304 deploying a disaster recovery site on aws&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.slideshare.net/AmazonWebServices/net308-consolidating-dns-data-in-the-cloud-with-amazon-route-53&quot;&gt;net308 consolidating dns data in the cloud with amazon route 53&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.slideshare.net/AmazonWebServices/sec314-aws-for-the-enterprise-implementing-policy-governance-security&quot;&gt;sec314 aws for the enterprise implementing policy governance security&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.slideshare.net/AmazonWebServices/dev301-automating-aws-with-the-aws-cli&quot;&gt;dev301 automating aws with the aws cli&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Architecture&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.slideshare.net/AmazonWebServices/bdt404-largescale-etl-data-flows-waws-data-pipeline-dataduct&quot;&gt;bdt404 largescale etl data flows waws data pipeline dataduct&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.slideshare.net/AmazonWebServices/net302-delivering-a-dbaas-using-advanced-aws-networking&quot;&gt;net302 delivering a dbaas using advanced-aws networking&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.slideshare.net/AmazonWebServices/sec403-diving-into-aws-cloudtrail-events-w-apache-spark-on-emr&quot;&gt;sec403 diving into aws cloudtrail events w apache spark on emr&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.slideshare.net/AmazonWebServices/arc303-pure-play-video-ott-a-microservices-architecture&quot;&gt;arc303 pure play video ott a-microservices-architecture&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.slideshare.net/AmazonWebServices/stg312-amazon-glacier-deep-dive-cold-data-storage-in-aws&quot;&gt;stg312 amazon glacier deep dive - cold data storage in aws&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.slideshare.net/AmazonWebServices/stg206-using-amazon-cloudfront-for-your-websites-apps&quot;&gt;stg206 using amazon cloudfront for your websites apps&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.slideshare.net/AmazonWebServices/mbl402-mobile-identity-management-data-sync-using-amazon-cognito&quot;&gt;mbl402 mobile identity management data sync-using amazon cognito&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.slideshare.net/AmazonWebServices/cmp403-aws-lambda-simplifying-big-data-workloads&quot;&gt;cmp403 aws lambda simplifying big data workloads&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Microservices&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.slideshare.net/AmazonWebServices/arc303-pure-play-video-ott-a-microservices-architecture&quot;&gt;arc303 pure play video ott a microservices architecture&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Performance/Optimization&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.slideshare.net/AmazonWebServices/net404-making-every-packet-count&quot;&gt;net404 making every packet  count&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.slideshare.net/AmazonWebServices/stg406-using-s3-to-build-and-scale-an-unlimited-storage-service&quot;&gt;stg406 using s3 to build and scale an unlimited storage service&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.slideshare.net/AmazonWebServices/stg312-amazon-glacier-deep-dive-cold-data-storage-in-aws&quot;&gt;stg312 amazon glacier deep dive cold data storage in aws&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.slideshare.net/AmazonWebServices/stg206-using-amazon-cloudfront-for-your-websites-apps&quot;&gt;stg206 using amazon cloudfront for your-websites apps&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.slideshare.net/AmazonWebServices/arc301-scaling-up-to-your-first-10-million-users&quot;&gt;arc301 scaling up to your first-10 million users&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Cost Optimization&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.slideshare.net/AmazonWebServices/arc302-running-lean-architectures-optimizing-for-cost-efficiency&quot;&gt;arc302 running lean architectures optimizing for cost efficiency&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.slideshare.net/AmazonWebServices/ism402-cost-optimization-at-scale&quot;&gt;ism402 cost optimization at  scale&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.slideshare.net/AmazonWebServices/mbl402-mobile-identity-management-data-sync-using-amazon-cognito&quot;&gt;mbl402 mobile identity management data sync using amazon cognito&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.slideshare.net/AmazonWebServices/cmp311-using-spot-instances-to-lower-costs-and-get-more-capacity&quot;&gt;Using Spot Instances to lower costs and get more capacity&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Security&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.slideshare.net/AmazonWebServices/sec326-security-science-using-big-data&quot;&gt;sec326 security science using big data&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.slideshare.net/AmazonWebServices/sec324-new-introducing-amazon-inspector&quot;&gt;sec324 introducing amazon inspector&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.slideshare.net/AmazonWebServices/sec316-your-architecture-w-security-incident-response-simulations&quot;&gt;sec316 your architecture with security incident response simulations&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.slideshare.net/AmazonWebServices/spot303-security-operations-at-massive-scale&quot;&gt;spot303 security operations at massive scale&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.slideshare.net/AmazonWebServices/sec320-leveraging-the-power-of-aws-to-automate-security-compliance&quot;&gt;sec320 leveraging the power of aws to automate security compliance&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.slideshare.net/AmazonWebServices/sec402-enterprise-cloud-security-via-devsecops-20&quot;&gt;sec402 enterprise cloud security via devsecops 20&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Mobile&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.slideshare.net/AmazonWebServices/mbl402-mobile-identity-management-data-sync-using-amazon-cognito&quot;&gt;mbl402 mobile identity management data sync using amazon cognito&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.slideshare.net/AmazonWebServices/mbl309-analyze-mobile-app-data-and-build-predictive-applications&quot;&gt;mbl309 analyze mobile app data and-build-predictive applications&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Big Data/EMR&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.slideshare.net/AmazonWebServices/mbl402-mobile-identity-management-data-sync-using-amazon-cognito&quot;&gt;mbl402 mobile identity management data sync using amazon cognito&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.slideshare.net/AmazonWebServices/arc301-scaling-up-to-your-first-10-million-users&quot;&gt;arc301 scaling up to your first 10 million users&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Enterprise/Migration&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.slideshare.net/AmazonWebServices/spot210-zyngas-journey-back-to-the-aws-cloud&quot;&gt;spot210 zyngas journey back to the aws cloud&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.slideshare.net/AmazonWebServices/sec325-satisfy-pci-obligations-while-continuing-to-innovate&quot;&gt;sec325 satisfy pci obligations while continuing to innovate&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.slideshare.net/AmazonWebServices/dat304-amazon-rds-for-mysql-best-practices&quot;&gt;dat304 amazon rds for mysql best-practices&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.slideshare.net/AmazonWebServices/ism305-framework-create-cloud-strategy-accelerate-results&quot;&gt;ism305 framework create cloud strategy accelerate results&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.slideshare.net/AmazonWebServices/ism215-why-brooks-brothers-moved-their-production-sap-to-aws&quot;&gt;ism215 why brooks brothers moved their production sap to aws&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.slideshare.net/AmazonWebServices/dat205-new-launch-introduction-to-aws-database-migration-service&quot;&gt;dat205 new launch introduction to aws database migration service&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.slideshare.net/AmazonWebServices/sec321-implementing-policy-governance-security-for-enterprises&quot;&gt;sec321 implementing policy governance security for enterprises&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Internet of Things&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.slideshare.net/AmazonWebServices/mbl308-extending-alexas-builtin-skills-see-how-capital-one-did-it&quot;&gt;mbl308 extending alexas builtin skills see-how capital one did it&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.slideshare.net/AmazonWebServices/mbl203-drones-to-cars-connecting-the-devices-in-motion-to-the-cloud&quot;&gt;mbl203 drones to cars connecting the devices in motion to the cloud&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.slideshare.net/AmazonWebServices/mbl204-state-of-the-union-iot-powered-by-aws&quot;&gt;mbl204 state of the union iot powered by aws&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.slideshare.net/AmazonWebServices/mbl305-you-have-data-from-the-devices-now-what-getting-the-value-of-the-iot&quot;&gt;mbl305 you have data from the-devices now what getting the value of the iot&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Deep/Machine Learning&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.slideshare.net/AmazonWebServices/mbl309-analyze-mobile-app-data-and-build-predictive-applications&quot;&gt;mbl309 analyze mobile app data and build predictive applications&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.slideshare.net/AmazonWebServices/cmp305-deep-learning-on-aws-made-easycmp305&quot;&gt;cmp305 deep learning on aws made easycmp305&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Management&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.slideshare.net/AmazonWebServices/ism207-how-the-principles-of-lean-transform-innovation&quot;&gt;ism207 how the principles of lean-transform innovation&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Research/Edgy/Misc Topics&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.slideshare.net/AmazonWebServices/dat203-building-graph-databases-on-aws&quot;&gt;dat203 building graph databases on aws&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.slideshare.net/AmazonWebServices/dev201-aws-sdk-for-go-gophers-get-going-with-aws&quot;&gt;dev201 aws sdk for go gophers get going with aws&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.slideshare.net/AmazonWebServices/spot203-fourth-annual-startup-launches-hosted-by-werner-vogels&quot;&gt;spot203 fourth annual startup launches hosted by werner vogels&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.slideshare.net/AmazonWebServices/mbl310-alexa-voice-service-under-the-hood&quot;&gt;mbl310 alexa voice service under the hood&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.slideshare.net/AmazonWebServices/spot208-how-to-sponsor-a-diversity-circle-in-a-tech-workplace&quot;&gt;spot208 how to sponsor a diversity circle in a tech workplace&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;External press:&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;http://searchaws.techtarget.com/opinion/AWS-reInvent-2015-to-focus-on-cloud-management-security&quot;&gt;AWS reInvent 2015 to focus on cloud management security&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://techcrunch.com/2014/11/13/amazonannounces-ec2-container-service-for-managing-docker-containers-on-aws/&quot;&gt; ECS manages docker containers   &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.infoworld.com/article/2990115/virtualization/container-management-and-monitoring-dominate-amazon-reinvent.html&quot;&gt;container management and monitoring dominate amazon reinvent&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://searchaws.techtarget.com/news/4500254811/New-Amazon-Elasticsearch-service-eases-setup-with-exceptions&quot;&gt;New Amazon Elasticsearch service eases setup-with exceptions&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.computerworld.com/article/2990994/public-cloud/day-two-of-re-invent-one-cloud-ring-to-rule-them-all.html&quot;&gt;day two of re invent one cloud ring to rule them all&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Reddit comments about attending this year, logistics and how-to.. Jeff Barr participates&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/aws/comments/3nxeo6/reinvent_too_crowded_this_year/&quot;&gt; Reinvent too crowded this year    &lt;/a&gt;&lt;/p&gt;
 
 
 </description>
-        <pubDate>Tue, 06 Oct 2015 13:13:00 -0700</pubDate>
-        <link>http://danmiley.gethub.com/www/tech/2015/10/06/bestie/</link>
-        <guid isPermaLink="true">http://danmiley.gethub.com/www/tech/2015/10/06/bestie/</guid>
+        <pubDate>Tue, 13 Oct 2015 13:13:00 -0700</pubDate>
+        <link>https://github.com/danmiley/danmiley.github.io/www/tech/2015/10/13/aws-reinvent-2015/</link>
+        <guid isPermaLink="true">https://github.com/danmiley/danmiley.github.io/www/tech/2015/10/13/aws-reinvent-2015/</guid>
         
-        <category>jekyll</category>
+        <category>aws</category>
         
-        <category>org-mode</category>
+        <category>cloud</category>
+        
+        <category>scaling</category>
+        
+        <category>reinvent</category>
         
         
         <category>tech</category>
-        
-      </item>
-    
-      <item>
-        <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve --watch&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
-
-&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
-
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
-
-</description>
-        <pubDate>Tue, 06 Oct 2015 09:11:59 -0700</pubDate>
-        <link>http://danmiley.gethub.com/www/jekyll/update/2015/10/06/welcome-to-jekyll/</link>
-        <guid isPermaLink="true">http://danmiley.gethub.com/www/jekyll/update/2015/10/06/welcome-to-jekyll/</guid>
-        
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
-        
-      </item>
-    
-      <item>
-        <title>source code</title>
-        <description>
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;rubygems&amp;#39;&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;org-ruby&amp;#39;&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;IO&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;read&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;filename&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Orgmode&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Parser&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;to_html&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;defun&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;org-xor&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-   &lt;span class=&quot;s&quot;&gt;&amp;quot;Exclusive or.&amp;quot;&lt;/span&gt;
-   &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;if &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;not &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-
-</description>
-        <pubDate>Fri, 02 Oct 2015 00:00:00 -0700</pubDate>
-        <link>http://danmiley.gethub.com/www/2015/10/02/source-code/</link>
-        <guid isPermaLink="true">http://danmiley.gethub.com/www/2015/10/02/source-code/</guid>
-        
-        <category>jekyll</category>
-        
-        <category>org-mode</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>liquid....</title>
-        <description>&lt;p&gt;hello world&lt;/p&gt;
-&lt;p&gt;or&lt;/p&gt;
-&lt;p&gt;2015-10-11T16:27:22-07:00&lt;/p&gt;
-</description>
-        <pubDate>Thu, 01 Oct 2015 00:00:00 -0700</pubDate>
-        <link>http://danmiley.gethub.com/www/2015/10/01/liquid/</link>
-        <guid isPermaLink="true">http://danmiley.gethub.com/www/2015/10/01/liquid/</guid>
-        
-        <category>jekyll</category>
-        
-        <category>org-mode</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Firtie</title>
-        <description>
-&lt;p&gt;Here is a post, minimal markdown&lt;/p&gt;
-
-&lt;p&gt;emoji enabled
-&lt;img class=&quot;emoji&quot; title=&quot;:smile:&quot; alt=&quot;:smile:&quot; src=&quot;https://assets.github.com/images/icons/emoji/unicode/1f604.png&quot; height=&quot;20&quot; width=&quot;20&quot; align=&quot;absmiddle&quot; /&gt;&lt;/p&gt;
-</description>
-        <pubDate>Thu, 01 Oct 2015 00:00:00 -0700</pubDate>
-        <link>http://danmiley.gethub.com/www/2015/10/01/firtie/</link>
-        <guid isPermaLink="true">http://danmiley.gethub.com/www/2015/10/01/firtie/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Jekyll and Org together</title>
-        <description>
-&lt;p&gt;we can somewhat do this, right?&lt;/p&gt;
-&lt;p&gt;Here is a list:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;item 1&lt;/li&gt;
-  &lt;li&gt;here&amp;#8217;s number 2&lt;/li&gt;
-  &lt;li&gt;dont care about what this says&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;photofloatr&quot;&gt;
-  &lt;p&gt;&lt;img src=&quot;/www/public/images/a9office.jpeg&quot; width=&quot;300&quot;
-    height=&quot;150&quot; alt=&quot;A9 Office&quot;&gt;&lt;/p&gt;
-  &lt;p&gt;A photo downtown Palo Alto&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;photofloatr&quot;&gt;
-  &lt;p&gt;&lt;img src=&quot;/www/public/images/screengrab.gif&quot; width=&quot;600&quot;
-    height=&quot;400&quot; alt=&quot;Screen Grabbie&quot;&gt;&lt;/p&gt;
-  &lt;p&gt;Running Da Jekylll&lt;/p&gt;
-&lt;/div&gt;
-
-
-</description>
-        <pubDate>Sat, 01 Aug 2015 00:00:00 -0700</pubDate>
-        <link>http://danmiley.gethub.com/www/2015/08/01/tango/</link>
-        <guid isPermaLink="true">http://danmiley.gethub.com/www/2015/08/01/tango/</guid>
-        
-        <category>jekyll</category>
-        
-        <category>org-mode</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Introducing Lanyon</title>
-        <description>&lt;p&gt;Lanyon is an unassuming &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; theme that places content first by tucking away navigation in a hidden drawer. It’s based on &lt;a href=&quot;http://getpoole.com&quot;&gt;Poole&lt;/a&gt;, the Jekyll butler.&lt;/p&gt;
-
-&lt;h3 id=&quot;built-on-poole&quot;&gt;Built on Poole&lt;/h3&gt;
-
-&lt;p&gt;Poole is the Jekyll Butler, serving as an upstanding and effective foundation for Jekyll themes by &lt;a href=&quot;https://twitter.com/mdo&quot;&gt;&lt;a href=&quot;https://github.com/mdo&quot; class=&quot;user-mention&quot;&gt;@mdo&lt;/a&gt;&lt;/a&gt;. Poole, and every theme built on it (like Lanyon here) includes the following:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Complete Jekyll setup included (layouts, config, &lt;a href=&quot;/404&quot;&gt;404&lt;/a&gt;, &lt;a href=&quot;/atom.xml&quot;&gt;RSS feed&lt;/a&gt;, posts, and &lt;a href=&quot;/about&quot;&gt;example page&lt;/a&gt;)&lt;/li&gt;
-  &lt;li&gt;Mobile friendly design and development&lt;/li&gt;
-  &lt;li&gt;Easily scalable text and component sizing with &lt;code&gt;rem&lt;/code&gt; units in the CSS&lt;/li&gt;
-  &lt;li&gt;Support for a wide gamut of HTML elements&lt;/li&gt;
-  &lt;li&gt;Related posts (time-based, because Jekyll) below each post&lt;/li&gt;
-  &lt;li&gt;Syntax highlighting, courtesy Pygments (the Python-based code snippet highlighter)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;lanyon-features&quot;&gt;Lanyon features&lt;/h3&gt;
-
-&lt;p&gt;In addition to the features of Poole, Lanyon adds the following:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Toggleable sliding sidebar (built with only CSS) via &lt;strong&gt;☰&lt;/strong&gt; link in top corner&lt;/li&gt;
-  &lt;li&gt;Sidebar includes support for textual modules and a dynamically generated navigation with active link support&lt;/li&gt;
-  &lt;li&gt;Two orientations for content and sidebar, default (left sidebar) and &lt;a href=&quot;https://github.com/poole/lanyon#reverse-layout&quot;&gt;reverse&lt;/a&gt; (right sidebar), available via &lt;code&gt;&amp;lt;body&amp;gt;&lt;/code&gt; classes&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/poole/lanyon#themes&quot;&gt;Eight optional color schemes&lt;/a&gt;, available via &lt;code&gt;&amp;lt;body&amp;gt;&lt;/code&gt; classes&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/poole/lanyon#readme&quot;&gt;Head to the readme&lt;/a&gt; to learn more.&lt;/p&gt;
-
-&lt;h3 id=&quot;browser-support&quot;&gt;Browser support&lt;/h3&gt;
-
-&lt;p&gt;Lanyon is by preference a forward-thinking project. In addition to the latest versions of Chrome, Safari (mobile and desktop), and Firefox, it is only compatible with Internet Explorer 9 and above.&lt;/p&gt;
-
-&lt;h3 id=&quot;download&quot;&gt;Download&lt;/h3&gt;
-
-&lt;p&gt;Lanyon is developed on and hosted with GitHub. Head to the &lt;a href=&quot;https://github.com/poole/lanyon&quot;&gt;GitHub repository&lt;/a&gt; for downloads, bug reports, and features requests.&lt;/p&gt;
-
-&lt;p&gt;Thanks!&lt;/p&gt;
-</description>
-        <pubDate>Thu, 02 Jan 2014 00:00:00 -0800</pubDate>
-        <link>http://danmiley.gethub.com/www/2014/01/02/introducing-lanyon/</link>
-        <guid isPermaLink="true">http://danmiley.gethub.com/www/2014/01/02/introducing-lanyon/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Example content</title>
-        <description>&lt;div class=&quot;message&quot;&gt;
-  Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
-&lt;/div&gt;
-
-&lt;p&gt;Cum sociis natoque penatibus et magnis &lt;a href=&quot;#&quot;&gt;dis parturient montes&lt;/a&gt;, nascetur ridiculus mus. &lt;em&gt;Aenean eu leo quam.&lt;/em&gt; Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Etiam porta &lt;strong&gt;sem malesuada magna&lt;/strong&gt; mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.&lt;/p&gt;
-
-&lt;h2 id=&quot;inline-html-elements&quot;&gt;Inline HTML elements&lt;/h2&gt;
-
-&lt;p&gt;HTML defines a long list of available inline tags, a complete list of which can be found on the &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/HTML/Element&quot;&gt;Mozilla Developer Network&lt;/a&gt;.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;To bold text&lt;/strong&gt;, use &lt;code&gt;&amp;lt;strong&amp;gt;&lt;/code&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;To italicize text&lt;/em&gt;, use &lt;code&gt;&amp;lt;em&amp;gt;&lt;/code&gt;.&lt;/li&gt;
-  &lt;li&gt;Abbreviations, like &lt;abbr title=&quot;HyperText Markup Langage&quot;&gt;HTML&lt;/abbr&gt; should use &lt;code&gt;&amp;lt;abbr&amp;gt;&lt;/code&gt;, with an optional &lt;code&gt;title&lt;/code&gt; attribute for the full phrase.&lt;/li&gt;
-  &lt;li&gt;Citations, like &lt;cite&gt;— Mark otto&lt;/cite&gt;, should use &lt;code&gt;&amp;lt;cite&amp;gt;&lt;/code&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;del&gt;Deleted&lt;/del&gt; text should use &lt;code&gt;&amp;lt;del&amp;gt;&lt;/code&gt; and &lt;ins&gt;inserted&lt;/ins&gt; text should use &lt;code&gt;&amp;lt;ins&amp;gt;&lt;/code&gt;.&lt;/li&gt;
-  &lt;li&gt;Superscript &lt;sup&gt;text&lt;/sup&gt; uses &lt;code&gt;&amp;lt;sup&amp;gt;&lt;/code&gt; and subscript &lt;sub&gt;text&lt;/sub&gt; uses &lt;code&gt;&amp;lt;sub&amp;gt;&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Most of these elements are styled by browsers with few modifications on our part.&lt;/p&gt;
-
-&lt;h2 id=&quot;heading&quot;&gt;Heading&lt;/h2&gt;
-
-&lt;p&gt;Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.&lt;/p&gt;
-
-&lt;h3 id=&quot;code&quot;&gt;Code&lt;/h3&gt;
-
-&lt;p&gt;Cum sociis natoque penatibus et magnis dis &lt;code&gt;code element&lt;/code&gt; montes, nascetur ridiculus mus.&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;c1&quot;&gt;// Example can be run directly in your JavaScript console&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;// Create a function that takes two arguments and returns the sum of those arguments&lt;/span&gt;
-&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;adder&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;a&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;b&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;return a + b&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;// Call the function&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;adder&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// &amp;gt; 8&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.&lt;/p&gt;
-
-&lt;h3 id=&quot;lists&quot;&gt;Lists&lt;/h3&gt;
-
-&lt;p&gt;Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Praesent commodo cursus magna, vel scelerisque nisl consectetur et.&lt;/li&gt;
-  &lt;li&gt;Donec id elit non mi porta gravida at eget metus.&lt;/li&gt;
-  &lt;li&gt;Nulla vitae elit libero, a pharetra augue.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Vestibulum id ligula porta felis euismod semper.&lt;/li&gt;
-  &lt;li&gt;Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.&lt;/li&gt;
-  &lt;li&gt;Maecenas sed diam eget risus varius blandit sit amet non magna.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.&lt;/p&gt;
-
-&lt;dl&gt;
-  &lt;dt&gt;HyperText Markup Language (HTML)&lt;/dt&gt;
-  &lt;dd&gt;The language used to describe and define the content of a Web page&lt;/dd&gt;
-
-  &lt;dt&gt;Cascading Style Sheets (CSS)&lt;/dt&gt;
-  &lt;dd&gt;Used to describe the appearance of Web content&lt;/dd&gt;
-
-  &lt;dt&gt;JavaScript (JS)&lt;/dt&gt;
-  &lt;dd&gt;The programming language used to build advanced Web sites and applications&lt;/dd&gt;
-&lt;/dl&gt;
-
-&lt;p&gt;Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo.&lt;/p&gt;
-
-&lt;h3 id=&quot;tables&quot;&gt;Tables&lt;/h3&gt;
-
-&lt;p&gt;Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Name&lt;/th&gt;
-      &lt;th&gt;Upvotes&lt;/th&gt;
-      &lt;th&gt;Downvotes&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tfoot&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Totals&lt;/td&gt;
-      &lt;td&gt;21&lt;/td&gt;
-      &lt;td&gt;23&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tfoot&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Alice&lt;/td&gt;
-      &lt;td&gt;10&lt;/td&gt;
-      &lt;td&gt;11&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Bob&lt;/td&gt;
-      &lt;td&gt;4&lt;/td&gt;
-      &lt;td&gt;3&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Charlie&lt;/td&gt;
-      &lt;td&gt;7&lt;/td&gt;
-      &lt;td&gt;9&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Want to see something else added? &lt;a href=&quot;https://github.com/poole/poole/issues/new&quot;&gt;Open an issue.&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Wed, 01 Jan 2014 00:00:00 -0800</pubDate>
-        <link>http://danmiley.gethub.com/www/2014/01/01/example-content/</link>
-        <guid isPermaLink="true">http://danmiley.gethub.com/www/2014/01/01/example-content/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>What&#39;s Jekyll?</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From &lt;a href=&quot;https://github.com/mojombo/jekyll/blob/master/README.markdown&quot;&gt;the project’s readme&lt;/a&gt;:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Jekyll is a simple, blog aware, static site generator. It takes a template directory […] and spits out a complete, static website suitable for serving with Apache or your favorite web server. This is also the engine behind GitHub Pages, which you can use to host your project’s page or blog right here from GitHub.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;It’s an immensely useful tool and one we encourage you to use here with Lanyon.&lt;/p&gt;
-
-&lt;p&gt;Find out more by &lt;a href=&quot;https://github.com/mojombo/jekyll&quot;&gt;visiting the project on GitHub&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 31 Dec 2013 00:00:00 -0800</pubDate>
-        <link>http://danmiley.gethub.com/www/2013/12/31/whats-jekyll/</link>
-        <guid isPermaLink="true">http://danmiley.gethub.com/www/2013/12/31/whats-jekyll/</guid>
-        
         
       </item>
     
