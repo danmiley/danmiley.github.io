@@ -1,0 +1,31 @@
+{
+  "exercises": [
+    {
+      "id": 1,
+      "title": "Barbell Squat",
+      "description": "A compound exercise targeting the lower body. Stand with feet shoulder-width apart, barbell across upper back. Lower your body until thighs are parallel to ground, then push back up.",
+      "sets": "4 sets of 8-12 reps",
+      "tips": "Keep chest up, core tight, and knees tracking over toes",
+      "difficulty": "intermediate",
+      "muscleGroups": ["quadriceps", "hamstrings", "glutes", "core"]
+    },
+    {
+      "id": 2,
+      "title": "Bench Press",
+      "description": "Classic chest exercise. Lie on bench, grip barbell slightly wider than shoulders. Lower bar to chest, then press up with controlled movement.",
+      "sets": "4 sets of 8-12 reps",
+      "tips": "Keep wrists straight and elbows at 45-degree angle",
+      "difficulty": "intermediate",
+      "muscleGroups": ["chest", "triceps", "shoulders"]
+    },
+    {
+      "id": 3,
+      "title": "Deadlift",
+      "description": "Full-body compound movement. Stand with feet hip-width apart, grip barbell with hands outside knees. Hinge at hips to lift bar, keeping back straight.",
+      "sets": "3 sets of 6-8 reps",
+      "tips": "Start with lighter weight to perfect form. Keep bar close to shins and thighs throughout movement",
+      "difficulty": "advanced",
+      "muscleGroups": ["back", "hamstrings", "glutes", "core"]
+    }
+  ]
+}
